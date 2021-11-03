@@ -1,0 +1,152 @@
+#skip-arrow{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+#skip-arrow>div{
+    margin: 7%;
+    color: grey;
+}
+#skip-arrow>div:nth-child(1)>img{
+    width: 8%;
+}
+
+.text-center{
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.15000000596046448px;
+    color: #212529;
+    margin-bottom: 15%;
+}
+
+#signup-form{
+    width: 100vw;
+}
+
+#signup-form>div{
+    width: 90vw;
+    height: 8vh;
+    border: 2px solid #CED4DA;
+    margin:3% auto;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+#signup-form>div>input{
+    width: 80vw;
+    height: 7vh;
+    margin-left:2%;
+    border: 0;
+    outline: none;
+}
+
+.checkbox{
+    width: 100vw;
+    display: flex;
+}
+
+.checkbox>div:nth-child(1){
+    margin-left: 5%;
+}
+
+.checkbox>div:nth-child(1)>input{
+   width: 5vw;
+   height: 5vh;
+}
+
+.checkbox>div:nth-child(2){
+   font-size: 12px;
+   margin-left: 2%;
+   margin-top: 2%;
+   color: #6C757D;
+   letter-spacing: 0.4px;
+
+}
+
+.checkbox>div:nth-child(2)>span{
+    color: #149F65;
+ }
+
+.btn-register {
+    width: 90vw;
+    border: 1px solid #149F65;
+    height: 7vh;
+    margin: 1% auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    color:#149F65 ;
+    background-color: white;
+
+}
+
+.hr-line{
+    width: 90vw;
+    margin: 10% auto;
+    display: flex;
+}
+
+.hr-line>div:nth-child(1){
+    width: 40vw;
+    border-top: 1px solid grey;
+}
+
+.hr-line>div:nth-child(2){
+ margin-top: -3%;
+ margin-left:10px;
+ margin-right: 10px;
+ color: grey;
+}
+
+.hr-line>div:nth-child(3){
+    width: 45vw;
+    border-top: 1px solid grey;
+}
+
+
+#signup-third{
+    width: 100vw;
+}
+
+#signup-third>div:nth-child(1){
+    width: 90vw;
+    background-color: #4267B2;
+    height: 7vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    color: white;
+    font-weight: 450;
+}
+#signup-third>div:nth-child(2){
+    width: 90vw;
+    height: 7vh;
+    margin: 5% auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    color: #999999;
+    border: 1px solid grey;
+    font-weight: 450;
+}
+
+#signup-third>div>span{
+    margin-right: 2%;
+}
+
+#have-account{
+    text-align: center;
+    margin-top: 10%;
+    color: #80888E;
+}
+
+#have-account>span{
+    color: black;
+}
