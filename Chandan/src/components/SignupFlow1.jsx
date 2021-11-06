@@ -1,28 +1,24 @@
-import '../styles/skip.css'
+import '../styles/signupflow1.css'
 import fb from '../assets/images/fb.png'
 import google from '../assets/images/google.png'
-import Signup3 from '../components/Signup3'
 import { useState } from 'react'
 import { useHistory } from "react-router-dom";
-
 import axios from 'axios'
 
 import {
-
     Link
 } from "react-router-dom";
 
-function Signup1() {
+function SignupFlow1() {
     let history = useHistory();
     const [data, setData] = useState({
         name: "",
-        email: ""
+        email: "",
+        tc:"",
     })
 
-    const [otpvalue,setOtp]=useState()
-
-   
-
+    const [border1,setBorder1]=useState(false)
+    const [border2,setBorder2]=useState(false)
     const [isloading, setIsLoading] = useState(false)
 
     const checkData = (e) => {
@@ -39,12 +35,13 @@ function Signup1() {
          
             axios.post("http://localhost:2325/signup",{
                     name:data.name,
-                    email:data.email
+                    email:data.email,
+                    tc:data.tc,
                 })
 
             
             setTimeout(() => {
-                history.push("/signup3")
+                history.push("/SignupFlow2")
             }, 5000)
             setIsLoading(true)
         }
@@ -56,36 +53,45 @@ function Signup1() {
 
     const handleChange = (e) => {
 
-        let { name, value } = e.target
+        let { name, value,type,checked } = e.target
 
-        setData({ ...data, [name]: value })
+        setData({
+             ...data, 
+            [name]: type==="checkbox"?checked:value
+         })
 
+    }
+
+    
+    const changeBorder1=()=>{
+        setBorder1(true)
+    }
+    const changeBorder2=()=>{
+        setBorder2(true)
     }
     return (
         <>
             <div id="skip-arrow">
                 <div><img src="https://cdn-icons-png.flaticon.com/512/130/130882.png" alt="" /></div>
-                <div><Link to="/signup3">SKIP</Link></div>
+                <div><Link to="/">SKIP</Link></div>
             </div>
 
             <div className="text-center">Sign Up</div>
 
-            <form onSubmit={checkData}>
+                <form onSubmit={checkData}>
                 <div id="signup-form">
-                    <div><input type="text" name="name" id="" placeholder="NAME" onChange={handleChange} style={data.name.length<5?{border:"1px solid red"}:{border:"2px solid grey"}}/></div>
-                    <div><input type="text" name="email" id="" placeholder="EMAIL" onChange={handleChange} /></div>
+                    <div style={border1?{border:"2px solid #3277D8"}:{border:"1px solid grey"}}><input type="text" name="name" id="" placeholder="NAME" onChange={handleChange}  onFocus={()=>{changeBorder1()}}/></div>
+                    <div style={border2?{border:"2px solid #3277D8"}:{border:"1px solid grey"}}><input type="text" name="email" id="" placeholder="EMAIL" onChange={handleChange} onFocus={()=>{changeBorder2()}}/></div>
                 </div>
 
-
-
                 <div className="checkbox">
-                    <div><input type="checkbox" name="" id="" /></div>
+                    <div><input type="checkbox" name="tc" id="" onChange={handleChange}  /></div>
                     <div>I agree to the <span>Terms of service</span> and  <span>Privacy Policy</span></div>
                 </div>
 
 
 
-                <button className="btn-register" type="submit">{isloading ? "Please Wait..." : "REGISTER"}</button>
+                <button className="btn-register" type="submit" style={data.tc?{backgroundColor:"green",color:"white"}:{backgroundColor:"white"}}>{isloading ? "Please Wait..." : "REGISTER"}</button>
             </form>
 
             <div className="hr-line">
@@ -106,4 +112,4 @@ function Signup1() {
     )
 }
 
-export default Signup1
+export default SignupFlow1

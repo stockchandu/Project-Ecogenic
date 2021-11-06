@@ -5,9 +5,15 @@
 }
 
 #skip-arrow>div{
-    margin: 7%;
+    margin: 5%;
     color: grey;
 }
+
+
+#skip-arrow>div:nth-child(2)>a{
+    text-decoration: none;
+}
+
 #skip-arrow>div:nth-child(1)>img{
     width: 8%;
 }
@@ -143,10 +149,11 @@
 
 #have-account{
     text-align: center;
-    margin-top: 10%;
+    margin-top: 35%;
     color: #80888E;
 }
 
 #have-account>span{
-    color: black;
+    color: #149F65;
+    text-decoration: underline;
 }

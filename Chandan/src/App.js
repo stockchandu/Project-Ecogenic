@@ -1,10 +1,10 @@
-import Signup1 from './components/Signup1'
-import Signup3 from './components/Signup3'
+import SignupFlow1 from './components/SignupFlow1'
+import SignupFlow2 from './components/SignupFlow2'
+import SignupFlow3 from './components/SignupFlow3'
 import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
 } from "react-router-dom";
 
 function App() {
@@ -12,12 +12,16 @@ function App() {
     <>
       <Router>
         <Switch>
-          <Route exact path="/signup1">
-            <Signup1/>
+          <Route exact path="/SignupFlow1">
+            <SignupFlow1/>
           </Route>
-          <Route exact path="/signup3">
-            <Signup3/>
+          <Route exact path="/SignupFlow2">
+            <SignupFlow2/>
           </Route>
+          <Route exact path="/SignupFlow3">
+            <SignupFlow3/>
+          </Route>
+
         </Switch>
       </Router>
     </>
