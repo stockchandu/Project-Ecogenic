@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const otpSchema = new mongoose.Schema({
+const resendotpSchema = new mongoose.Schema({
     otp:{type:String},
     expireAt: {
         type: Date,
@@ -11,7 +11,7 @@ const otpSchema = new mongoose.Schema({
     timestamps:true
 })
 
-otpSchema.index({ "expire_at": 1 });
-const Otp = mongoose.model("otpUserData",otpSchema)
+resendotpSchema.index({ "expire_at": 1 },{ expireAfterSeconds: 300 });
+const resendOtp = mongoose.model("otpUserData",resendotpSchema)
 
-module.exports=Otp
+module.exports=resendOtp

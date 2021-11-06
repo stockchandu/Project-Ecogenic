@@ -15,6 +15,9 @@ app.use("/signup",userSignup);
 const userOtp = require("./src/controller/otp.controller");
 app.use("/otp",userOtp);
 
+const resendOtp = require("./src/controller/resendotp.controller");
+app.use("/resendotp",resendOtp);
+
 app.listen(2325,async()=>{
     await connect();
     console.log("the port is running on 2325");
