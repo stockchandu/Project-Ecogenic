@@ -1,21 +1,25 @@
+@import "mixin";
+
 #skip-arrow{
     width: 100vw;
     display: flex;
     justify-content: space-between;
+    margin-top: 5%;
+    @include font-family;
 }
 
 #skip-arrow>div{
     margin: 5%;
-    color: grey;
+    color: #6C757D;
 }
-
 
 #skip-arrow>div:nth-child(2)>a{
     text-decoration: none;
+    color:#6C757D;
 }
 
 #skip-arrow>div:nth-child(1)>img{
-    width: 8%;
+    width: 6%;
 }
 
 .text-center{
@@ -23,10 +27,9 @@
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
-    line-height: 24px;
-    letter-spacing: 0.15000000596046448px;
-    color: #212529;
+    letter-spacing: 0.15px;
     margin-bottom: 15%;
+    color: #212529;
 }
 
 #signup-form{
@@ -42,11 +45,12 @@
     border-radius: 4px;
 }
 #signup-form>div>input{
-    width: 80vw;
-    height: 7vh;
-    margin-left:2%;
+    width: 85vw;
+    height: 6vh;
+    margin:2% 0 0 2%;
     border: 0;
     outline: none;
+    @include font-family;
 }
 
 .checkbox{
@@ -64,30 +68,30 @@
 }
 
 .checkbox>div:nth-child(2){
-   font-size: 12px;
-   margin-left: 2%;
-   margin-top: 2%;
-   color: #6C757D;
-   letter-spacing: 0.4px;
-
+    font-size: 12px;
+    margin-left: 2%;
+    margin-top: 2.5%;
+    color: #6C757D;
+    letter-spacing: 0.4px;
+    line-height: 19px;
+    text-align: left;
+    @include font-style;
 }
 
 .checkbox>div:nth-child(2)>span{
     color: #149F65;
+    font-weight: 500;
  }
 
 .btn-register {
     width: 90vw;
-    border: 1px solid #149F65;
     height: 7vh;
     margin: 1% auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 4px;
     color:#149F65 ;
+    border: 1px solid grey;
     background-color: white;
-
+    @include font-style;
+    @include display-tems;
 }
 
 .hr-line{
@@ -102,10 +106,10 @@
 }
 
 .hr-line>div:nth-child(2){
- margin-top: -3%;
- margin-left:10px;
- margin-right: 10px;
- color: grey;
+    margin-top: -3%;
+    margin-left:10px;
+    margin-right: 10px;
+    color: grey;
 }
 
 .hr-line>div:nth-child(3){
@@ -123,24 +127,19 @@
     background-color: #4267B2;
     height: 7vh;
     margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 4px;
     color: white;
-    font-weight: 450;
+    @include font-style;
+    @include display-tems;
 }
 #signup-third>div:nth-child(2){
     width: 90vw;
     height: 7vh;
     margin: 5% auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     border-radius: 4px;
     color: #999999;
-    border: 1px solid grey;
-    font-weight: 450;
+    border: 1px solid #CED4DA;
+    @include font-style;
+    @include display-tems;
 }
 
 #signup-third>div>span{
@@ -149,11 +148,15 @@
 
 #have-account{
     text-align: center;
-    margin-top: 35%;
-    color: #80888E;
+    margin-top: 33%;
+    font-family: Open Sans;
+    color:#6C757D;
+    @include  have-account;
+
 }
 
 #have-account>span{
-    color: #149F65;
-    text-decoration: underline;
+    font-family: Roboto;
+    color: black;
+    @include  have-account;
 }
