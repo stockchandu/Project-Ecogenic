@@ -1,0 +1,26 @@
+#ecogenic{
+    position: absolute;
+width: 286px;
+height: 37px;
+left: 64px;
+top: 353px;
+}
+
+#getStarted{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 6px 6px 6px 8px;
+
+position: absolute;
+width: 334px;
+height: 56px;
+left: 40px;
+top: 636px;
+
+/* Green - 900 - Primary */
+
+background: #149F65;
+border-radius: 4px;
+}

@@ -1,0 +1,88 @@
+.wrapper {
+  position: relative;
+  width: 414px;
+  height: 896px;
+
+  background: #ffffff;
+}
+.img1 {
+  position: absolute;
+  width: 240.75px;
+  height: 240.75px;
+  left: 87px;
+  top: 191.12px;
+}
+.heading {
+  position: absolute;
+  width: 310px;
+  height: 32px;
+  left: 73px;
+  top: 525px;
+  border: 1px solid black;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 32px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  color: #000000;
+}
+.para {
+  position: absolute;
+  width: 382px;
+  height: 48px;
+  left: 16px;
+  top: 581px;
+
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  /* Gray - 700 */
+
+  color: #495057;
+}
+
+.dots {
+  position: absolute;
+  left: 43.44%;
+  right: 43.93%;
+  top: 77.57%;
+  bottom: 21.09%;
+}
+.skip {
+  position: absolute;
+  left: 7.49%;
+  right: 82.13%;
+  top: 90.51%;
+  bottom: 7.7%;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 16px;
+  /* identical to box height, or 89% */
+
+  letter-spacing: 1.25px;
+  text-transform: uppercase;
+
+  /* Gray - 700 */
+
+  color: #495057;
+}
+.Arrow {
+  position: absolute;
+  width: 50.26px;
+  height: 50px;
+  left: 328px;
+  top: 810px;
+}
