@@ -1,3 +1,4 @@
+import { useState } from "react/cjs/react.development";
 import styled from "styled-components";
 
 const Button = styled.button`
@@ -21,5 +22,9 @@ const Button = styled.button`
 `;
 
 export function BottomButton(props) {
+  console.log(props.isSelected);
+
+  // const [sel, setSel] = useState(false);
+  // props.isSelected && setSel(true);
   return <Button onClick={props.onclick}> {props.children}</Button>;
 }
