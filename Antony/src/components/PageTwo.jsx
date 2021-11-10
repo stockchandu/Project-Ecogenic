@@ -273,7 +273,7 @@ export const PageTwo = (props) => {
         <BottomButton
           yes={"yes"}
           isSelected={isSelected}
-          onclick={props.handelPage}
+          onclick={isSelected && props.handelPage}
         >
           {" "}
           {bottomButtonText}
