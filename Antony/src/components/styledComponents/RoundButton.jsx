@@ -3,7 +3,7 @@ import react from "react";
 import styled from "styled-components";
 
 export function RoundButton(props) {
-  console.log("props boolean guy consoleeeeeeeeeeee", props.state, props.name);
+  // console.log("props boolean guy consoleeeeeeeeeeee", props.state, props.name);
 
   const Button = styled.button`
     /* padding: 6px; */
@@ -30,6 +30,16 @@ export function RoundButton(props) {
     border: ${props.state ? "none" : "solid ##6c757d 1px"};
   `;
 
+  const CrossDiv = styled.div`
+    font-size: 20px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: ${props.isBig ? "0px" : "4px"};
+    margin-left: 1px;
+  `;
+
   return (
     <Button
       onClick={() => {
@@ -38,6 +48,16 @@ export function RoundButton(props) {
     >
       {" "}
       {props.children}
+      <CrossDiv
+        onClick={() => {
+          setTimeout(() => {
+            props.handleRemoveIsSelected(props.name);
+          }, 10);
+        }}
+      >
+        {" "}
+        {props.state && "✕"}{" "}
+      </CrossDiv>
     </Button>
   );
 }

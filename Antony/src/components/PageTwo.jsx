@@ -60,7 +60,7 @@ export const PageTwo = (props) => {
   `;
 
   const handleIsSelected = (guy) => {
-    console.log(guy);
+    //console.log(guy);
     setStateArray({
       ...stateArray,
       [guy]: true,
@@ -70,7 +70,27 @@ export const PageTwo = (props) => {
     //   News: true,
     // });
     setIsSelected(true);
-    console.log(stateArray);
+    //console.log("setting true............", stateArray);
+  };
+  const handleRemoveIsSelected = (guy) => {
+    // console.log(
+    //   "guy inside remove select..................................",
+    //   guy
+    // );
+    var obj = stateArray;
+    obj[guy] = false;
+    setStateArray(obj);
+    //stateArray[guy] = false;
+    // setStateArray({
+    //   ...stateArray,
+    //   [guy]: false,
+    // });
+    // setStateArray({
+    //   ...stateArray,
+    //   News: true,
+    // });
+    // setIsSelected(true);
+    //console.log("setting false............", stateArray);
   };
 
   const RoundButtonDiv = styled.div`
@@ -91,6 +111,7 @@ export const PageTwo = (props) => {
           state={stateArray.Home}
           setIsSelected={setIsSelected}
           handleIsSelected={handleIsSelected}
+          handleRemoveIsSelected={handleRemoveIsSelected}
           isBig={true}
         >
           Home & Lifestyle
@@ -99,6 +120,7 @@ export const PageTwo = (props) => {
           name="Food & Kitchen"
           state={stateArray["Food & Kitchen"]}
           handleIsSelected={handleIsSelected}
+          handleRemoveIsSelected={handleRemoveIsSelected}
           isBig={true}
         >
           Food & Kitchen
@@ -110,6 +132,7 @@ export const PageTwo = (props) => {
           name="Beauty & Wellness"
           state={stateArray["Beauty & Wellness"]}
           handleIsSelected={handleIsSelected}
+          handleRemoveIsSelected={handleRemoveIsSelected}
           isBig={false}
         >
           Beauty & Wellness
@@ -118,6 +141,7 @@ export const PageTwo = (props) => {
           name="Pets"
           state={stateArray.Pets}
           handleIsSelected={handleIsSelected}
+          handleRemoveIsSelected={handleRemoveIsSelected}
           isBig={false}
         >
           Pets
@@ -126,6 +150,7 @@ export const PageTwo = (props) => {
           name="Food & Kitchen2"
           state={stateArray["Food & Kitchen2"]}
           handleIsSelected={handleIsSelected}
+          handleRemoveIsSelected={handleRemoveIsSelected}
           isBig={true}
         >
           Food & Kitchen
@@ -137,6 +162,7 @@ export const PageTwo = (props) => {
           name="Fashion"
           state={stateArray.Fashion}
           handleIsSelected={handleIsSelected}
+          handleRemoveIsSelected={handleRemoveIsSelected}
           isBig={true}
         >
           Fashion
@@ -145,6 +171,7 @@ export const PageTwo = (props) => {
           name="Art & Design"
           state={stateArray["Art & Design"]}
           handleIsSelected={handleIsSelected}
+          handleRemoveIsSelected={handleRemoveIsSelected}
           isBig={false}
         >
           Art & Design
@@ -153,6 +180,7 @@ export const PageTwo = (props) => {
           name="Health & Fitness"
           state={stateArray["Health & Fitness"]}
           handleIsSelected={handleIsSelected}
+          handleRemoveIsSelected={handleRemoveIsSelected}
           isBig={false}
         >
           Health & Fitness
@@ -164,6 +192,7 @@ export const PageTwo = (props) => {
           name="The World"
           state={stateArray["The World"]}
           handleIsSelected={handleIsSelected}
+          handleRemoveIsSelected={handleRemoveIsSelected}
           isBig={false}
         >
           The World
@@ -172,6 +201,7 @@ export const PageTwo = (props) => {
           name="News"
           state={stateArray.News}
           handleIsSelected={handleIsSelected}
+          handleRemoveIsSelected={handleRemoveIsSelected}
           isBig={false}
         >
           News
@@ -180,6 +210,7 @@ export const PageTwo = (props) => {
           name="DIY crafts"
           state={stateArray["DIY crafts"]}
           handleIsSelected={handleIsSelected}
+          handleRemoveIsSelected={handleRemoveIsSelected}
           isBig={true}
         >
           DIY crafts
@@ -191,6 +222,7 @@ export const PageTwo = (props) => {
           name="Blockchain"
           state={stateArray.Blockchain}
           handleIsSelected={handleIsSelected}
+          handleRemoveIsSelected={handleRemoveIsSelected}
           isBig={false}
         >
           Blockchain
@@ -199,6 +231,7 @@ export const PageTwo = (props) => {
           name="Programming"
           state={stateArray.Programming}
           handleIsSelected={handleIsSelected}
+          handleRemoveIsSelected={handleRemoveIsSelected}
           isBig={false}
         >
           Programming
@@ -207,6 +240,7 @@ export const PageTwo = (props) => {
           name="Beauty & Wellness2"
           state={stateArray["Beauty & Wellness2"]}
           handleIsSelected={handleIsSelected}
+          handleRemoveIsSelected={handleRemoveIsSelected}
           isBig={false}
         >
           Beauty & Wellness
@@ -218,6 +252,7 @@ export const PageTwo = (props) => {
           name="Home & Lifestyle2"
           state={stateArray["Home & Lifestyle2"]}
           handleIsSelected={handleIsSelected}
+          handleRemoveIsSelected={handleRemoveIsSelected}
           isBig={false}
         >
           Home & Lifestyle
@@ -226,6 +261,7 @@ export const PageTwo = (props) => {
           name="Food & Kitchen3"
           state={stateArray["Food & Kitchen3"]}
           handleIsSelected={handleIsSelected}
+          handleRemoveIsSelected={handleRemoveIsSelected}
           isBig={true}
         >
           Food & Kitchen
