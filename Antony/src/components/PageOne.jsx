@@ -12,7 +12,7 @@ import { BottomButton } from "./styledComponents/BottomButton";
 import { Skip } from "./styledComponents/Skipbutton";
 
 const Para = styled.p`
-  margin-top: 67px;
+  margin-top: 63px;
   text-align: center;
   font-family: "Rubik", sans-serif;
   font-style: normal;

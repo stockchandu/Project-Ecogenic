@@ -7,7 +7,7 @@ export function RoundButton(props) {
 
   const Button = styled.button`
     /* padding: 6px; */
-    height: 38px;
+    height: 34px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -36,7 +36,7 @@ export function RoundButton(props) {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: ${props.isBig ? "0px" : "4px"};
+    margin-top: ${props.isBig ? "0px" : "2px"};
     margin-left: 1px;
   `;
 
