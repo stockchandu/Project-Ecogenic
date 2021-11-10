@@ -1,0 +1,95 @@
+@import "mixin";
+
+#parent-card-1{
+    width: 100vw;
+}
+
+#parent-card-1>div:nth-child(1){
+   @include common-header-payment-style
+}
+
+#parent-card-1>div:nth-child(1)>div:nth-child(1){
+    margin: 0 5% 0 3%;
+}
+
+#parent-card-1>div:nth-child(2){
+    width:100%;
+    display: flex;
+    margin-top: 5%;
+}
+
+#parent-card-1>div:nth-child(2)>div:nth-child(1){
+   margin-right: 5%;
+   width: 20vw;
+   margin-left: 3%;
+}
+
+#hash>img{
+    width: 8vw;
+    margin-top:135%;
+    margin-left: 10%;
+}
+
+#input-parent>div{
+    width: 90vw;
+}
+
+#input-parent>div:nth-child(1){
+    color: #149F64;
+    font-size: 18px;
+    margin-bottom: 3%;
+}
+
+#input-parent>div:nth-child(2)>input{
+    width: 85%;
+    height: 5vh;
+    outline: none;
+    border: 0;
+    border-bottom: 1px solid grey;
+    margin-bottom: 8%;
+}
+
+#input-parent>div:nth-child(3)>input{
+    width: 85%;
+    height: 5vh;
+    outline: none;
+    border: 0;
+    border-bottom: 1px solid grey;
+    margin-bottom: 8%;
+}
+
+#input-parent>div:nth-child(4){
+    margin-left: -5%;
+}
+
+#input-parent>div:nth-child(4)>input{
+    width: 18vw;
+    height: 5vh;
+    outline: none;
+    border: 0;
+    margin-left: 5%;
+    border-bottom: 1px solid grey;
+}
+
+#parent-card-1>div:nth-child(3){
+    width: 100%;
+    margin-top: 15%;
+    display: flex;
+    justify-content: center;
+}
+
+#parent-card-1>div:nth-child(3)>button{
+    width: 90%;
+    height: 7vh;
+    margin:auto;
+    border: 0;
+    border-radius: 8px;
+    background-color: #149F64;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#parent-card-1>div:nth-child(4){
+    margin:2% 0 0 4%;
+}

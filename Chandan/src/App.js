@@ -1,11 +1,14 @@
 import SignupFlow1 from './components/SignupFlow1'
 import SignupFlow2 from './components/SignupFlow2'
 import SignupFlow3 from './components/SignupFlow3'
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-} from "react-router-dom";
+import PaymentPage1 from './components/PaymentPage1'
+import PaymentPage2 from './components/PaymentPage2'
+import PaymentPage3 from './components/PaymentPage3'
+import PaymentPage4 from './components/PaymentPage4'
+import SuccessPage from './components/SuccessPage'
+import FailurePage from './components/FailurePage'
+import Homepage from './components/Homepage'
+import { BrowserRouter as Router, Switch,Route } from "react-router-dom";
 
 function App() {
   return (
@@ -21,7 +24,27 @@ function App() {
           <Route exact path="/SignupFlow3">
             <SignupFlow3/>
           </Route>
-
+          <Route exact path="/">
+            <Homepage/>
+          </Route>
+          <Route exact path="/PaymentPage1">
+            <PaymentPage1/>
+          </Route>
+          <Route exact path="/PaymentPage2">
+            <PaymentPage2/>
+          </Route>
+          <Route exact path="/PaymentPage3">
+            <PaymentPage3/>
+          </Route>
+          <Route exact path="/PaymentPage4">
+            <PaymentPage4/>
+          </Route>
+          <Route exact path="/SuccessPage">
+            <SuccessPage/>
+          </Route>
+          <Route exact path="/FailurePage">
+            <FailurePage/>
+          </Route>
         </Switch>
       </Router>
     </>
