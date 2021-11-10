@@ -1,6 +1,8 @@
 import '../styles/paymentpage1.scss';
 import { useHistory,Link } from "react-router-dom";
 
+import { greenArrow } from '../assets/images/allImages';
+
 
 const PaymentPage1 = () => {
     return (
@@ -23,7 +25,7 @@ const PaymentPage1 = () => {
                     </div>
 
                     <div>
-                        <button>Activate Plan <img src="https://imagesdataporter.s3.ap-south-1.amazonaws.com/smallarrow.png" alt="arrow" /></button>
+                        <button>Activate Plan <img src={greenArrow} alt="arrow" /></button>
                         <p>You can change or cancel your subscription anytime</p>
                     </div>
                 </div>

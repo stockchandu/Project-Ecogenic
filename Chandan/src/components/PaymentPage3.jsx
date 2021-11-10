@@ -1,4 +1,5 @@
 import '../styles/paymentpage3.scss';
+import { whiteArrow,personHead,googlePay,plusIcon,masterCard,visaCard,mnpPayment} from '../assets/images/allImages';
 
 const PaymentPage3 = () =>{
 
@@ -8,13 +9,13 @@ const PaymentPage3 = () =>{
 
                 {/* nthchild-1 */}
              <div>
-                 <div><img src="https://imagesdataporter.s3.ap-south-1.amazonaws.com/Eco-Resource/leftarrowfinal.png" alt="" /></div>
+                 <div><img src={whiteArrow} alt="" /></div>
                  <div>Bill Total: Rs.140</div>
              </div>
 
                  {/* nthchild-2 */}
              <div>
-                 <div><img src="https://imagesdataporter.s3.ap-south-1.amazonaws.com/Eco-Resource/head.png" alt="" /></div>
+                 <div><img src={personHead} alt="" /></div>
                  <div>malikchandan926@gmail.com</div>
                  <div>scroll arrow</div>
              </div>
@@ -24,7 +25,7 @@ const PaymentPage3 = () =>{
 
               {/* nthchild-4 */}
              <div>
-                 <div><img src="https://imagesdataporter.s3.ap-south-1.amazonaws.com/Eco-Resource/gpay.png" alt="" /></div>
+                 <div><img src={googlePay} alt="" /></div>
                  <div>Google Pay</div>
                  <div></div>
              </div>
@@ -34,12 +35,12 @@ const PaymentPage3 = () =>{
 
               {/* nthchild-6 */}
              <div>
-                 <div><img src="https://imagesdataporter.s3.ap-south-1.amazonaws.com/Eco-Resource/plusicon.png" alt="" /></div>
+                 <div><img src={plusIcon} alt="" /></div>
                  <div>Add New Card
                      <div>
-                         <img src="https://imagesdataporter.s3.ap-south-1.amazonaws.com/Eco-Resource/mastercard.png" alt="" />
-                         <img src="https://imagesdataporter.s3.ap-south-1.amazonaws.com/Eco-Resource/visa.png" alt="" />
-                         <img src="https://imagesdataporter.s3.ap-south-1.amazonaws.com/Eco-Resource/mnp.png" alt="" />
+                         <img src={masterCard} alt="" />
+                         <img src={visaCard} alt="" />
+                         <img src={mnpPayment} alt="" />
                     </div>
                  </div>
              </div>
@@ -49,7 +50,7 @@ const PaymentPage3 = () =>{
 
               {/* nthchild-8 */}
              <div>
-                 <div><img src="https://imagesdataporter.s3.ap-south-1.amazonaws.com/Eco-Resource/plusicon.png" alt="" /></div>
+                 <div><img src={plusIcon} alt="" /></div>
                  <div>Add New UPI
                      <div>
                          <img src="https://imagesdataporter.s3.ap-south-1.amazonaws.com/Eco-Resource/mastercard.png" alt="" />

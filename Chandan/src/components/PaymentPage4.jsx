@@ -1,7 +1,56 @@
 import '../styles/paymentpage4.scss';
 
+import React from "react"
+
+import { whiteArrow,greenHash,blackCard,masterCard } from '../assets/images/allImages';
+
+import {useState} from 'react'
+
+import { hideemail } from '../utils/hideemail';
 
 const PaymentPage4=()=>{
+
+    const [border,setBorder] = useState(false);
+    const [input,setInput] = useState('');
+    const [master,setMaster]=useState(false);
+
+    const handleChange = (e) =>{
+        setInput(e.target.value);
+        
+    }
+
+
+    const showCardData = (e) =>{
+
+        let {value} = e.target;
+
+        if(value.startsWith("5")){
+            setMaster(true);
+        }
+        else if(value.startsWith("6")){
+            setMaster(false);
+        }
+
+    }
+
+
+    const handleBorder = () =>{
+        setBorder(true);
+    }
+
+    const handleBorderGrey = () =>{
+        setBorder(false);
+    }
+
+    let borderStyle;
+
+    if(border){
+        borderStyle={
+            borderBottom:"1px solid #149F64"
+        }
+
+    }
+
 
     return (
         <>
@@ -9,20 +58,20 @@ const PaymentPage4=()=>{
 
             {/* child 1 */}
              <div>
-             <div><img src="https://imagesdataporter.s3.ap-south-1.amazonaws.com/Eco-Resource/leftarrowfinal.png" alt="" /></div>
+             <div><img src={whiteArrow} alt="" /></div>
                  <div>Add New Card</div>
              </div>
 
              {/* child 2 */}
              <div>
-                 <div id="hash"><img src="https://imagesdataporter.s3.ap-south-1.amazonaws.com/Eco-Resource/hash.png" alt="hash"  /></div>
+                 <div id="hash"><img src={greenHash} alt="hash"  /></div>
                  <div id="input-parent">
                      <div>Card Number</div>
-                     <div><input type="text" autocomplete="cc-csc" placeholder="ENTER CARD NUMBER"/></div>
+                     <div><input type="text"   maxLength="16" style={borderStyle} autocomplete="cc-csc" placeholder="ENTER CARD NUMBER" onFocus={handleBorder} onBlur={handleBorderGrey} onInput={showCardData}/>{master?React.createElement("img", {className: "loungeImage", src: masterCard}):""}</div>
                      <div><input type="text" placeholder="NAME ON THE CARD" autocomplete="cc-csc"/></div>
                      <div>
-                         <input type="text" autocomplete="cc-csc" placeholder="MM/YY"/>
-                         <input type="text" autocomplete="cc-csc" placeholder="CVV"/>
+                         <input type="text" autocomplete="cc-csc" placeholder="MM/YY"  maxLength="4"/>
+                         <input type="text" autocomplete="cc-csc" placeholder="CVV" maxLength="3" />
                      </div>
                  </div>
              </div>
@@ -33,7 +82,7 @@ const PaymentPage4=()=>{
             </div>
 
              {/* child4 */}
-             <div><img src="https://imagesdataporter.s3.ap-south-1.amazonaws.com/Eco-Resource/blackvisa.png" alt="" /></div>
+             <div><img src={blackCard} alt="" /></div>
 
             </div>
         </>

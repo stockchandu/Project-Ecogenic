@@ -18,11 +18,23 @@
     margin-top: 5%;
 }
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
 #parent-card-1>div:nth-child(2)>div:nth-child(1){
    margin-right: 5%;
    width: 20vw;
    margin-left: 3%;
 }
+
+
 
 #hash>img{
     width: 8vw;

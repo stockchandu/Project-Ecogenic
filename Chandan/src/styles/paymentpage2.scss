@@ -1,5 +1,5 @@
 #payment-parent-2{
-    width: 95vw;
+    width: 100vw;
     height: auto;
 }
 
@@ -18,7 +18,7 @@
 }
 
 #payment-parent-2>div:nth-child(2){
-    width: 96%;
+    width: 100%;
     height: 75vh;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -48,7 +48,7 @@
 }
 
 #make-payment{
-    width: 90vw;
+    width: 100vw;
     display: flex;
     justify-content: center;
     margin-top: 10%;
@@ -61,7 +61,7 @@
     height: 68px;
     background-color: white;
     letter-spacing: -0.32px;
-    font-family: "DM Sans";;
+    font-family: "DM Sans";
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
