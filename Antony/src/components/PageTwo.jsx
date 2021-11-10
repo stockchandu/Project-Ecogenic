@@ -15,7 +15,7 @@ const Para = styled.p`
   font-size: 20px;
   line-height: 25px;
   /* identical to box height, or 125% */
-  margin-bottom: 130px;
+  margin-bottom: 110px;
   margin-top: 75px;
   text-align: center;
   letter-spacing: 0.02em;
@@ -49,7 +49,7 @@ export const PageTwo = (props) => {
   }, [isSelected]);
 
   const ButtonWrapDiv = styled.div`
-    margin-top: 90px;
+    margin-top: 40px;
     display: flex;
     justify-content: center;
     & button {

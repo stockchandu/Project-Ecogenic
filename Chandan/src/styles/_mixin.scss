@@ -42,3 +42,18 @@
     font-size: 14px;
     line-height: 24px;
 }
+
+@mixin common-header-payment-style{
+    background-color: #149F64;
+    display: flex;
+    height:10vh;
+    align-items: flex-end;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 21px;
+    letter-spacing: -0.32px;
+    color: #FFFFFF;
+    padding-bottom: 5%;
+}

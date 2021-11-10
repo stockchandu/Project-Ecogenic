@@ -5,6 +5,7 @@ import { PageTwo } from "./components/PageTwo";
 import { AnnualCarbonFootprintShow } from "./components/AnnualCarbonFootprintShow";
 function App() {
   const [page, setPage] = useState(3);
+  const [carbonFootprint, setCarbonFootprint] = useState(1.75);
   useEffect(() => {}, [page]);
   const handelPage = () => {
     setPage(page + 1);
@@ -20,7 +21,9 @@ function App() {
       ) : page === 2 ? (
         <PageTwo handelPage={handelPage} handelSkip={handelSkip} />
       ) : (
-        <AnnualCarbonFootprintShow></AnnualCarbonFootprintShow>
+        <AnnualCarbonFootprintShow
+          carbonFootprint={carbonFootprint}
+        ></AnnualCarbonFootprintShow>
       )}
     </>
   );

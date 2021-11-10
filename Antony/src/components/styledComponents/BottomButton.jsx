@@ -17,7 +17,7 @@ const Button = styled.button`
   line-height: 16px;
   letter-spacing: 1.25px;
   text-transform: uppercase;
-
+  /* margin-top: -10px; */
   color: #ffffff;
 `;
 
