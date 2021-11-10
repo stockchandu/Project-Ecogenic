@@ -22,7 +22,7 @@ const Button = styled.button`
 `;
 
 export function BottomButton(props) {
-  console.log(props.isSelected);
+  //console.log(props.isSelected);
 
   // const [sel, setSel] = useState(false);
   // props.isSelected && setSel(true);

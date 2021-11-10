@@ -26,6 +26,24 @@ const Para = styled.p`
 export const PageTwo = (props) => {
   const [bottomButtonText, setBottomButtonText] = useState("NEXT");
   const [isSelected, setIsSelected] = useState(false);
+  const [stateArray, setStateArray] = useState({
+    Home: false,
+    "Food & Kitchen": false,
+    "Beauty & Wellness": false,
+    Pets: false,
+    "Food & Kitchen2": false,
+    Fashion: false,
+    "Art & Design": false,
+    "Health & Fitness": false,
+    "The World": false,
+    News: false,
+    "DIY crafts": false,
+    Blockchain: false,
+    Programming: false,
+    "Beauty & Wellness2": false,
+    "Home & Lifestyle2": false,
+    "Food & Kitchen3": false,
+  });
   useEffect(() => {
     isSelected ? setBottomButtonText("FINISH") : setBottomButtonText("NEXT");
   }, [isSelected]);
@@ -41,6 +59,20 @@ export const PageTwo = (props) => {
     }
   `;
 
+  const handleIsSelected = (guy) => {
+    console.log(guy);
+    setStateArray({
+      ...stateArray,
+      [guy]: true,
+    });
+    // setStateArray({
+    //   ...stateArray,
+    //   News: true,
+    // });
+    setIsSelected(true);
+    console.log(stateArray);
+  };
+
   const RoundButtonDiv = styled.div`
     display: flex;
     justify-content: space-evenly;
@@ -54,37 +86,150 @@ export const PageTwo = (props) => {
 
       <RoundButtonDiv>
         {" "}
-        <RoundButton isBig={true}>Home & Lifestyle</RoundButton>
-        <RoundButton isBig={true}>Food & Kitchen</RoundButton>
+        <RoundButton
+          name="Home"
+          state={stateArray.Home}
+          setIsSelected={setIsSelected}
+          handleIsSelected={handleIsSelected}
+          isBig={true}
+        >
+          Home & Lifestyle
+        </RoundButton>
+        <RoundButton
+          name="Food & Kitchen"
+          state={stateArray["Food & Kitchen"]}
+          handleIsSelected={handleIsSelected}
+          isBig={true}
+        >
+          Food & Kitchen
+        </RoundButton>
       </RoundButtonDiv>
       <RoundButtonDiv>
         {" "}
-        <RoundButton isBig={false}>Beauty & Wellness</RoundButton>
-        <RoundButton isBig={false}>Pets</RoundButton>
-        <RoundButton isBig={true}>Food & Kitchen</RoundButton>
+        <RoundButton
+          name="Beauty & Wellness"
+          state={stateArray["Beauty & Wellness"]}
+          handleIsSelected={handleIsSelected}
+          isBig={false}
+        >
+          Beauty & Wellness
+        </RoundButton>
+        <RoundButton
+          name="Pets"
+          state={stateArray.Pets}
+          handleIsSelected={handleIsSelected}
+          isBig={false}
+        >
+          Pets
+        </RoundButton>
+        <RoundButton
+          name="Food & Kitchen2"
+          state={stateArray["Food & Kitchen2"]}
+          handleIsSelected={handleIsSelected}
+          isBig={true}
+        >
+          Food & Kitchen
+        </RoundButton>
       </RoundButtonDiv>
       <RoundButtonDiv>
         {" "}
-        <RoundButton isBig={true}>Fashion</RoundButton>
-        <RoundButton isBig={false}>Art & Design</RoundButton>
-        <RoundButton isBig={false}>Health & Fitness</RoundButton>
+        <RoundButton
+          name="Fashion"
+          state={stateArray.Fashion}
+          handleIsSelected={handleIsSelected}
+          isBig={true}
+        >
+          Fashion
+        </RoundButton>
+        <RoundButton
+          name="Art & Design"
+          state={stateArray["Art & Design"]}
+          handleIsSelected={handleIsSelected}
+          isBig={false}
+        >
+          Art & Design
+        </RoundButton>
+        <RoundButton
+          name="Health & Fitness"
+          state={stateArray["Health & Fitness"]}
+          handleIsSelected={handleIsSelected}
+          isBig={false}
+        >
+          Health & Fitness
+        </RoundButton>
       </RoundButtonDiv>
       <RoundButtonDiv>
         {" "}
-        <RoundButton isBig={false}>The World</RoundButton>
-        <RoundButton isBig={false}>News</RoundButton>
-        <RoundButton isBig={true}>DIY crafts</RoundButton>
+        <RoundButton
+          name="The World"
+          state={stateArray["The World"]}
+          handleIsSelected={handleIsSelected}
+          isBig={false}
+        >
+          The World
+        </RoundButton>
+        <RoundButton
+          name="News"
+          state={stateArray.News}
+          handleIsSelected={handleIsSelected}
+          isBig={false}
+        >
+          News
+        </RoundButton>
+        <RoundButton
+          name="DIY crafts"
+          state={stateArray["DIY crafts"]}
+          handleIsSelected={handleIsSelected}
+          isBig={true}
+        >
+          DIY crafts
+        </RoundButton>
       </RoundButtonDiv>
       <RoundButtonDiv>
         {" "}
-        <RoundButton isBig={false}>Blockchain</RoundButton>
-        <RoundButton isBig={false}>Programming</RoundButton>
-        <RoundButton isBig={false}>Beauty & Wellness</RoundButton>
+        <RoundButton
+          name="Blockchain"
+          state={stateArray.Blockchain}
+          handleIsSelected={handleIsSelected}
+          isBig={false}
+        >
+          Blockchain
+        </RoundButton>
+        <RoundButton
+          name="Programming"
+          state={stateArray.Programming}
+          handleIsSelected={handleIsSelected}
+          isBig={false}
+        >
+          Programming
+        </RoundButton>
+        <RoundButton
+          name="Beauty & Wellness2"
+          state={stateArray["Beauty & Wellness2"]}
+          handleIsSelected={handleIsSelected}
+          isBig={false}
+        >
+          Beauty & Wellness
+        </RoundButton>
       </RoundButtonDiv>
       <RoundButtonDiv>
         {" "}
-        <RoundButton isBig={false}>Home & Lifestyle</RoundButton>
-        <RoundButton isBig={true}>Food & Kitchen</RoundButton>
+        <RoundButton
+          name="Home & Lifestyle2"
+          state={stateArray["Home & Lifestyle2"]}
+          handleIsSelected={handleIsSelected}
+          isBig={false}
+        >
+          Home & Lifestyle
+        </RoundButton>
+        <RoundButton
+          name="Food & Kitchen3"
+          state={stateArray["Food & Kitchen3"]}
+          handleIsSelected={handleIsSelected}
+          isBig={true}
+        >
+          Food & Kitchen
+        </RoundButton>
       </RoundButtonDiv>
 
       <ButtonWrapDiv>
