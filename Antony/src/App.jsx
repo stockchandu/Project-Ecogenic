@@ -3,8 +3,9 @@ import { useState, useEffect } from "react";
 import { PageOne } from "./components/PageOne";
 import { PageTwo } from "./components/PageTwo";
 import { AnnualCarbonFootprintShow } from "./components/AnnualCarbonFootprintShow";
+import { StrategySlider } from "./components/StrategySlide";
 function App() {
-  const [page, setPage] = useState(3);
+  const [page, setPage] = useState(1);
   const [carbonFootprint, setCarbonFootprint] = useState(2.75);
   const [footprintData, setFootprintData] = useState({
     flying: 100,
@@ -34,7 +35,7 @@ function App() {
           carbonFootprint={carbonFootprint}
         ></AnnualCarbonFootprintShow>
       ) : (
-        <h1>connect next</h1>
+        <StrategySlider></StrategySlider>
       )}
     </>
   );
