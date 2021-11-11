@@ -18,6 +18,8 @@ app.use("/otp",userOtp);
 const resendOtp = require("./src/controller/resendotp.controller");
 app.use("/resendotp",resendOtp);
 
+app.use("/payment",require("./src/controller/payment.controller"));
+
 app.listen(2325,async()=>{
     await connect();
     console.log("the port is running on 2325");

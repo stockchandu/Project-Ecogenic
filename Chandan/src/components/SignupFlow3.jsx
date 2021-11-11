@@ -119,5 +119,5 @@ function SignupFlow3() {
   )
 }
 
-export { SignupFlow3 }
+export default SignupFlow3 
 
