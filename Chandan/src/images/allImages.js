@@ -13,4 +13,21 @@ export let blueArrow  = "https://imagesdataporter.s3.ap-south-1.amazonaws.com/Ec
 export let successGif = "https://imagesdataporter.s3.ap-south-1.amazonaws.com/Eco-Resource/successgif.gif";
 export let fbLogo     = "https://imagesdataporter.s3.ap-south-1.amazonaws.com/Eco-Resource/fb.png";
 export let googleLogo = "https://imagesdataporter.s3.ap-south-1.amazonaws.com/Eco-Resource/google.png";
-export let failureIcon= "https://imagesdataporter.s3.ap-south-1.amazonaws.com/Eco-Resource/failureicon.png"
+export let failureIcon = "https://imagesdataporter.s3.ap-south-1.amazonaws.com/Eco-Resource/failureicon.png";
+export let gifSpinner = "https://imagesdataporter.s3.ap-south-1.amazonaws.com/gifspinner.gif";
+export let varifiedVisa = "https://logowik.com/content/uploads/images/verified-by-visa6450.jpg";
+export let ICICIBank = "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/ICICI_Bank_Logo.svg/2560px-ICICI_Bank_Logo.svg.png"
+
+
+
+
+
+
+
+
+
+
+
+
+
+

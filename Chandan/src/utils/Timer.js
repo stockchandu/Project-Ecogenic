@@ -2,9 +2,9 @@ import { useState, useEffect } from 'react';
 const Timer = () => {
 
     const validCounter = {
-        "text-align": "center",
-        "margin-top": "5%",
-        "font-weight": "700",
+        "textAlign": "center",
+        "marginTop": "5%",
+        "fontWeight": "700",
     }
 
     const [minutes, setMinutes] = useState(9);

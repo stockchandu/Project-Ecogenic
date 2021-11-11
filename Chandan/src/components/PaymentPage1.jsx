@@ -1,8 +1,6 @@
 import '../styles/paymentpage1.scss';
-import { useHistory,Link } from "react-router-dom";
-
+import { Link } from "react-router-dom";
 import { greenArrow } from '../images/allImages';
-
 
 const PaymentPage1 = () => {
     return (
@@ -25,7 +23,7 @@ const PaymentPage1 = () => {
                     </div>
 
                     <div>
-                        <button>Activate Plan <img src={greenArrow} alt="arrow" /></button>
+                       <Link to="/PaymentPage2"><button>Activate Plan <img src={greenArrow} alt="arrow" /></button></Link>
                         <p>You can change or cancel your subscription anytime</p>
                     </div>
                 </div>

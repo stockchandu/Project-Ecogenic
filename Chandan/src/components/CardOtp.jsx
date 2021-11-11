@@ -1,15 +1,12 @@
 import '../styles/cardotp.scss'
-
 import {useState} from "react"
 import {useHistory } from "react-router-dom";
+import { varifiedVisa,ICICIBank } from '../images/allImages';
 
 const CardOtp = () =>{
-
     let history = useHistory()
-
     let otp = localStorage.getItem("otp");
-    console.log(otp)
-    
+    console.log(otp);
     const [input,setInput]=useState("");
     const [error,setError]=useState(false);
     const [validate,setValidate]=useState(false);
@@ -21,7 +18,6 @@ const CardOtp = () =>{
     const handleOTP = () =>{
         if(otp===input){
             setValidate(true);
-
             setTimeout(()=>{
                 history.push("/SuccessPage");
             },5000);
@@ -36,7 +32,7 @@ const CardOtp = () =>{
     return(
         <>
 
-        <div id="verified-visa"><img src="https://logowik.com/content/uploads/images/verified-by-visa6450.jpg" alt="" /><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/ICICI_Bank_Logo.svg/2560px-ICICI_Bank_Logo.svg.png" alt="" /></div>
+        <div id="verified-visa"><img src={varifiedVisa} alt="" /><img src={ICICIBank} alt="" /></div>
 
       <div id="main-otp-parent">
 

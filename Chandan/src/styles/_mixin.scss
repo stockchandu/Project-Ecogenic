@@ -4,16 +4,16 @@
 }
 
 @mixin font-family{
-    font-family: Rubik;
-    font-size: 14px;
+    font-family: "Rubik";
+    font-size: 15px;
     font-style: normal;
     font-weight: 400;
     letter-spacing: 1.25px;
 }
 
 @mixin font-style{
-    font-family: Rubik;
-    font-size: 12px;
+    font-family:"Rubik";
+    font-size: 13px;
     font-style: normal;
     font-weight: 400;
     line-height: 16px;
@@ -36,7 +36,7 @@
 }
 
 @mixin common-timer-font{
-    font-family: Rubik;
+    font-family: "Rubik";
     font-style: normal;
     font-weight: 550;
     font-size: 14px;
@@ -48,7 +48,7 @@
     display: flex;
     height:10vh;
     align-items: flex-end;
-    font-family: DM Sans;
+    font-family: 'DM Sans', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 22px;

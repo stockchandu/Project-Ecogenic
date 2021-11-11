@@ -19,9 +19,8 @@
 .status-image>div:nth-child(2){
     width: 70vw;
     margin: auto;
-    // border: 1px solid black;
     text-align: center;
-    font-family: "DM Sans";
+    font-family: 'DM Sans', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
@@ -35,7 +34,7 @@
     width: 50vw;
     padding: 2%;
     margin:5% auto 0 auto;
-    font-family: "DM Sans";
+    font-family: 'DM Sans', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
@@ -43,9 +42,13 @@
     display: flex;
     align-items: center;
     letter-spacing: 0.3px;
-    color: #149F65;
     text-align: center;
     padding-left: 8%;
+}
+
+.status-image>div:nth-child(3)>a{
+    text-decoration: none;
+    color: #149F65;
 }
 
 .status-image>div:nth-child(3)>img{

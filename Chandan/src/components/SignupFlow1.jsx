@@ -68,6 +68,14 @@ function SignupFlow1() {
             setBorder2(true);
         };
 
+        const changeBorderToOriginal1 = () =>{
+            setBorder1(false);
+        }
+
+        const changeBorderToOriginal2 = () =>{
+            setBorder2(false);
+        }
+
 return (
         <>
             <div id="skip-arrow">
@@ -85,10 +93,10 @@ return (
         <form onSubmit={checkData}>
             <div id="signup-form">
                 <div style={border1?{border:"2px solid #3277D8"}:{border:"1px solid grey"}}>
-                    <input type="text" name="name" id="" placeholder="NAME" onChange={handleChange}  onFocus={()=>{changeBorder1()}}/>
+                    <input type="text" name="name" id="" placeholder="NAME" onChange={handleChange}  onFocus={changeBorder1} onBlur={changeBorderToOriginal1}/>
                 </div>
                 <div style={border2?{border:"2px solid #3277D8"}:{border:"1px solid grey"}}>
-                    <input type="text" name="email" id="" placeholder="EMAIL" onChange={handleChange} onFocus={()=>{changeBorder2()}}/>
+                    <input type="text" name="email" id="" placeholder="EMAIL" onChange={handleChange} onFocus={changeBorder2} onBlur={changeBorderToOriginal2}/>
                 </div>
             </div>
 
@@ -100,7 +108,7 @@ return (
                     <div>I agree to the <span>Terms of service</span> and  <span>Privacy Policy</span></div>
                 </div>
 
-                <button className="btn-register" type="submit" style={data.tc?{backgroundColor:"green",color:"white"}:{backgroundColor:"white"}}>{isloading ? "Please Wait..." : "REGISTER"}</button>
+                <button className="btn-register" type="submit" style={{backgroundColor:"#149F64",color:"white"}}>{isloading ? "Please Wait..." : "REGISTER"}</button>
             </form>
 
             <div className="hr-line">
