@@ -1,5 +1,5 @@
 import '../styles/paymentpage3.scss';
-import { whiteArrow,personHead,googlePay,plusIcon,masterCard,visaCard,mnpPayment} from '../assets/images/allImages';
+import { whiteArrow,personHead,googlePay,plusIcon,masterCard,visaCard,mnpPayment} from '../images/allImages';
 
 const PaymentPage3 = () =>{
 

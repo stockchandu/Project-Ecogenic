@@ -5,18 +5,15 @@
 .status-image{
     width: 95vw;
     margin:50% 0 0 0;
-    // border:1px solid red
 }
 
 .status-image>div:nth-child(1){
     width: 50vw;
-    // border: 1px solid rgb(95, 92, 92);
     margin: 0 auto 5% auto;
 }
 
 .status-image>div:nth-child(1)>img{
     margin-left: 25%;
-
 }
 
 .status-image>div:nth-child(2){
@@ -26,7 +23,7 @@
     text-align: center;
     font-family: "DM Sans";
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 24px;
     line-height: 32px;
     text-align: center;
@@ -37,7 +34,6 @@
 .status-image>div:nth-child(3){
     width: 50vw;
     padding: 2%;
-    // border: 1px solid black;
     margin:5% auto 0 auto;
     font-family: "DM Sans";
     font-style: normal;
@@ -53,5 +49,10 @@
 }
 
 .status-image>div:nth-child(3)>img{
-    margin-right: 2%;
+    margin-right: 5%;
+}
+
+.status-image>div:nth-child(1)>img{
+    width: 100%;
+    margin-left: -2%;
 }

@@ -1,7 +1,7 @@
 import '../styles/paymentpage1.scss';
 import { useHistory,Link } from "react-router-dom";
 
-import { greenArrow } from '../assets/images/allImages';
+import { greenArrow } from '../images/allImages';
 
 
 const PaymentPage1 = () => {
