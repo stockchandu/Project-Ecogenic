@@ -18,8 +18,6 @@ const StaticP = styled.p`
   font-weight: bold;
   font-size: 14px;
   line-height: 19px;
-  /* identical to box height */
-
   letter-spacing: 0.15em;
   margin-top: 20px;
   color: #ffffff;
@@ -32,9 +30,6 @@ const CarbonValue = styled.p`
   font-weight: bold;
   font-size: 70px;
   line-height: 91px;
-  /* identical to box height */
-
-  /* letter-spacing: 0.15em; */
   margin-top: 25px;
   color: #ffffff;
 `;
@@ -47,12 +42,9 @@ const TonsP = styled.p`
   font-weight: 500;
   font-size: 22px;
   line-height: 29px;
-  /* identical to box height */
-
   color: #ffffff;
 `;
 const HorizontalBarsDiv = styled.div`
-  /* background-color: #3b3b3b; */
   height: 155px;
   margin-top: 30px;
   display: grid;
@@ -60,7 +52,6 @@ const HorizontalBarsDiv = styled.div`
   grid-gap: 1%;
 `;
 const LeftInHorDiv = styled.div`
-  /* background-color: black; */
   height: 100px;
   & p {
     font-family: "DM Sans", sans-serif;
@@ -73,11 +64,9 @@ const LeftInHorDiv = styled.div`
   }
 `;
 const RightInHorDiv = styled.div`
-  /* background-color: black; */
   height: 100px;
 `;
 const BelowCarbonDataBar = styled.div`
-  /* background-color: white; */
   height: 136px;
   & > :nth-child(1) {
     height: 68px;
@@ -131,7 +120,6 @@ const HeadingUnderstand = styled.p`
   color: #ffffff;
 `;
 const VerticalBarsDiv = styled.div`
-  /* background-color: #3b3b3b; */
   height: 185px;
   margin-top: -10px;
   display: grid;
@@ -168,10 +156,8 @@ const MoreOptionsWrapper = styled.div`
     width: 90%;
     margin: auto;
     color: #212529;
-    /* background-color: #856c6c; */
   }
   & > :nth-child(2) {
-    /* background-color: #856c6c; */
     align-items: center;
     margin-right: 9px;
     & img {
@@ -201,7 +187,6 @@ const NextButton = styled.div`
   font-weight: bold;
   font-size: 16px;
   line-height: 21px;
-  /* identical to box height, or 131% */
 
   display: flex;
   align-items: center;
@@ -209,7 +194,7 @@ const NextButton = styled.div`
   letter-spacing: -0.32px;
 
   color: #ffffff;
-  /* margin-bottom: 34px; */
+
   & p {
     margin-top: 10px;
   }
@@ -225,9 +210,7 @@ export const AnnualCarbonFootprintShow = (props) => {
     /* background-color: white; */
     height: 68px;
     width: ${() => {
-      //console.log(Number(carbonValue));
       let percentage = (Number(carbonValue) / 4.5) * 100;
-      //console.log(percentage);
 
       return `${percentage}%`;
     }};
@@ -272,7 +255,6 @@ export const AnnualCarbonFootprintShow = (props) => {
       font-weight: bold;
       font-size: 14px;
       line-height: 21px;
-      /* identical to box height, or 150% */
 
       letter-spacing: -0.32px;
 
@@ -284,7 +266,6 @@ export const AnnualCarbonFootprintShow = (props) => {
       font-weight: bold;
       font-size: 12px;
       line-height: 21px;
-      /* identical to box height, or 175% */
 
       letter-spacing: -0.32px;
 
@@ -299,7 +280,6 @@ export const AnnualCarbonFootprintShow = (props) => {
     justify-content: center;
     text-align: center;
 
-    /* background-color: #6e5e5e; */
     & > :nth-child(1) {
       height: ${() => {
         return `${props.footprintData.spending}%`;
@@ -316,8 +296,6 @@ export const AnnualCarbonFootprintShow = (props) => {
       font-weight: bold;
       font-size: 14px;
       line-height: 21px;
-      /* identical to box height, or 150% */
-
       letter-spacing: -0.32px;
 
       color: #ffffff;
@@ -328,10 +306,7 @@ export const AnnualCarbonFootprintShow = (props) => {
       font-weight: bold;
       font-size: 12px;
       line-height: 21px;
-      /* identical to box height, or 175% */
-
       letter-spacing: -0.32px;
-
       color: #ffffff;
     }
   `;
@@ -343,7 +318,6 @@ export const AnnualCarbonFootprintShow = (props) => {
     justify-content: center;
     text-align: center;
 
-    /* background-color: #6e5e5e; */
     & > :nth-child(1) {
       height: ${() => {
         return `${props.footprintData.housing}%`;
@@ -360,10 +334,7 @@ export const AnnualCarbonFootprintShow = (props) => {
       font-weight: bold;
       font-size: 14px;
       line-height: 21px;
-      /* identical to box height, or 150% */
-
       letter-spacing: -0.32px;
-
       color: #ffffff;
     }
     & > :nth-child(3) {
@@ -372,10 +343,7 @@ export const AnnualCarbonFootprintShow = (props) => {
       font-weight: bold;
       font-size: 12px;
       line-height: 21px;
-      /* identical to box height, or 175% */
-
       letter-spacing: -0.32px;
-
       color: #ffffff;
     }
   `;
@@ -386,8 +354,6 @@ export const AnnualCarbonFootprintShow = (props) => {
     align-items: end;
     justify-content: center;
     text-align: center;
-
-    /* background-color: #6e5e5e; */
     & > :nth-child(1) {
       height: ${() => {
         return `${props.footprintData.diet}%`;
@@ -404,10 +370,7 @@ export const AnnualCarbonFootprintShow = (props) => {
       font-weight: bold;
       font-size: 14px;
       line-height: 21px;
-      /* identical to box height, or 150% */
-
       letter-spacing: -0.32px;
-
       color: #ffffff;
     }
     & > :nth-child(3) {
@@ -416,10 +379,7 @@ export const AnnualCarbonFootprintShow = (props) => {
       font-weight: bold;
       font-size: 12px;
       line-height: 21px;
-      /* identical to box height, or 175% */
-
       letter-spacing: -0.32px;
-
       color: #ffffff;
     }
   `;
@@ -430,8 +390,6 @@ export const AnnualCarbonFootprintShow = (props) => {
     align-items: end;
     justify-content: center;
     text-align: center;
-
-    /* background-color: #6e5e5e; */
     & > :nth-child(1) {
       height: ${() => {
         return `${props.footprintData.mobility}%`;
@@ -448,10 +406,7 @@ export const AnnualCarbonFootprintShow = (props) => {
       font-weight: bold;
       font-size: 14px;
       line-height: 21px;
-      /* identical to box height, or 150% */
-
       letter-spacing: -0.32px;
-
       color: #ffffff;
     }
     & > :nth-child(3) {
@@ -460,10 +415,7 @@ export const AnnualCarbonFootprintShow = (props) => {
       font-weight: bold;
       font-size: 12px;
       line-height: 21px;
-      /* identical to box height, or 175% */
-
       letter-spacing: -0.32px;
-
       color: #ffffff;
     }
   `;
