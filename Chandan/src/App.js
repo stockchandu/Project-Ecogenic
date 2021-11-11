@@ -7,6 +7,8 @@ import PaymentPage3 from './components/PaymentPage3'
 import PaymentPage4 from './components/PaymentPage4'
 import SuccessPage from './components/SuccessPage'
 import FailurePage from './components/FailurePage'
+import Authenticate from './components/Authenticate'
+import CardOtp from './components/CardOtp'
 import Homepage from './components/Homepage'
 import { BrowserRouter as Router, Switch,Route } from "react-router-dom";
 
@@ -44,6 +46,12 @@ function App() {
           </Route>
           <Route exact path="/FailurePage">
             <FailurePage/>
+          </Route>
+          <Route exact path="/Authenticate">
+            <Authenticate/>
+          </Route>
+          <Route exact path="/CardOtp">
+            <CardOtp/>
           </Route>
         </Switch>
       </Router>

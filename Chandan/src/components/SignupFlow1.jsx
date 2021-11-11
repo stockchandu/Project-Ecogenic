@@ -1,6 +1,5 @@
 import '../styles/signupflow1.scss';
-import fb from '../assets/images/fb.png';
-import google from '../assets/images/google.png';
+import {googleLogo,fbLogo} from '../images/allImages'
 import { useState } from 'react';
 import { useHistory,Link } from "react-router-dom";
 import axios from 'axios';
@@ -112,8 +111,8 @@ return (
 
 
             <div id="signup-third">
-                <div><span><img src={fb} alt="facebook logo" /></span>SIGN UP WITH FACEBOOK</div>
-                <div><span><img src={google} alt="google logo" /></span>SIGN UP WITH GOOGLE</div>
+                <div><span><img src={fbLogo} alt="facebook logo" /></span>SIGN UP WITH FACEBOOK</div>
+                <div><span><img src={googleLogo} alt="google logo" /></span>SIGN UP WITH GOOGLE</div>
             </div>
 
             <div id="have-account">Already have an account? <span>Login</span></div>
