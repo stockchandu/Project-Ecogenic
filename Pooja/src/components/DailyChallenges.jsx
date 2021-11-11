@@ -2,8 +2,7 @@ import React from "react";
 import "../components/DailyChallenges.css";
 import { ImArrowRight2 } from "react-icons/all";
 import img3 from "../Images/unsplash_ILip77SbmOE.png";
-
-import { TiStarFullOutline } from "react-icons/all";
+import img4 from "../Images/⭐ 20 points.png";
 
 function DailyChallenges() {
   return (
@@ -12,16 +11,15 @@ function DailyChallenges() {
         <div className="dailyChallenge">
           <span className="dailyContent">DAILY CHALLENGES</span>
           <span className="star">
-            <TiStarFullOutline style={{ marginLeft: "10px" }} />
-            20 points
+            <img src={img4} alt="dsh" />
           </span>
         </div>
 
         <div className="text-middle">
-          <h6 className="spanText">
+          <p className="spanText">
             Speak about substainability with min,
             <br /> two friends
-          </h6>
+          </p>
         </div>
         <div className="joined-people">
           <span>

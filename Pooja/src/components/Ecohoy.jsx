@@ -3,11 +3,13 @@ import React from "react";
 import { FaAngleRight, FaAngleLeft } from "react-icons/fa";
 
 import "../App.css";
+import Menu from "./Menu";
 
 function Ecohoy() {
   return (
     <div className="ecohoy-container">
       <div className="ecohoy-pic">
+        <Menu />
         <div className="arrow-icon">
           <FaAngleLeft className="arrow-icon-left" />
           <FaAngleRight className="arrow-icon-right" />

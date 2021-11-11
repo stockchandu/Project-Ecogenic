@@ -4,14 +4,15 @@
   margin: auto;
   filter: drop-shadow(0px 4px 40px rgba(9, 9, 10, 0.15));
   border-radius: 12px;
-  background: linear-gradient(
+  /* background: linear-gradient(
     100.63deg,
     rgba(255, 255, 255, 0.421988) 70.26%,
     rgba(243, 243, 243, 0) 122.32%,
     #f8e353 122.32%
-  );
+  ); */
+  background-color: #f4f8fbeb;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  padding: 10px;
+  padding: 15px;
 }
 
 .dailyChallenge {
@@ -31,36 +32,34 @@
 }
 
 .text-middle {
-  font-family: DM Sans;
+  /* font-family: DM Sans;
   font-style: normal;
-  font-weight: normal;
+  font-weight: normal; */
   margin-top: 10px;
-  color: #000000;
 }
 .spanText {
   margin: 0px;
   font-size: 18px;
   line-height: 23px;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  /* color: #000000; */
+  color: rgba(0, 0, 0, 1);
 }
 .star {
-  font-family: DM Sans;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 16px;
-  align-items: center;
-  letter-spacing: 0.0015em;
-  color: #9e7d06;
-  background-color: #ffe893;
-  padding: 7px;
+  background-color: #fdf4df;
+  padding: 6px;
   border-radius: 15px;
+  width: 82px;
+  height: 28px;
 }
 .joined-people {
   margin-top: 15px;
 }
 
 .joined-people-two {
-  margin-left: 1px;
+  margin-left: -9px;
 }
 
 .joined-people-three {
@@ -78,7 +77,7 @@
 }
 
 .daily-arrow {
-  margin-left: 131px;
+  margin-left: 116px;
   color: rgba(20, 159, 101, 1);
   font-size: 19px;
 }

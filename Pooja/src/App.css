@@ -261,12 +261,10 @@ button.scan-btn {
   background-image: url("./Images/Rectangle\ 26.png");
   border-radius: 12px 12px 0px 0px;
 }
-.bottom-last {
-  background-color: white;
-}
 
 .tree-content {
-  padding: 15px;
+  padding: 10px;
+  margin-top: -1px;
 }
 
 .tree-heading {
@@ -290,7 +288,8 @@ button.scan-btn {
 .like {
   display: flex;
   justify-content: space-between;
-  margin-top: 10px;
+  margin-top: 6px;
+  margin-left: -2px;
 }
 .like-logo {
   width: 125px;
@@ -298,6 +297,7 @@ button.scan-btn {
   display: flex;
   justify-content: space-evenly;
   margin-left: 7px;
+  padding: 3px;
 }
 
 .like-image {
@@ -345,18 +345,32 @@ button.scan-btn {
 }
 .bottom-last {
   position: relative;
-  padding: 11px;
+  margin-top: 0px;
+  padding: 10px;
   border-radius: 0px 0px 12px 12px;
+  background-color: white;
+  position: relative;
+  position: relative;
+  padding: 11px;
+  margin-top: 0px;
+  margin-bottom: -6px;
 }
+/* .bottom-last {
+  background-color: white;
+  position: relative;
+  padding: 1px;
+  margin-top: 1px;
+  margin-bottom: 11px;
+} */
 .profile-image {
   width: 44px;
   height: 44px;
   background: url("./Images/unsplash_RfoISVdKM4U.png"), #676767;
   border-radius: 50%;
-  margin-left: 10px;
+  margin-left: 0px;
 }
 .name {
-  margin-left: 68px;
+  margin-left: 58px;
   margin-top: -46px;
   font-family: Rubik;
   font-size: 16px;
@@ -379,4 +393,14 @@ button.scan-btn {
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
+}
+
+.nav-bar-all {
+  width: 414px;
+  height: 72px;
+  background-color: #ffffff;
+  background-image: url("./Images/Nav-bar-all.png");
+  margin-left: -17px;
+  position: absolute;
+  margin-top: 15px;
 }
