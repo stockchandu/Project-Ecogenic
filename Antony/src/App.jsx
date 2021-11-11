@@ -35,7 +35,7 @@ function App() {
           carbonFootprint={carbonFootprint}
         ></AnnualCarbonFootprintShow>
       ) : (
-        <StrategySlider></StrategySlider>
+        <StrategySlider carbonFootprint={carbonFootprint}></StrategySlider>
       )}
     </>
   );
