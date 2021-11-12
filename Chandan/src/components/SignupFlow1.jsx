@@ -3,8 +3,13 @@ import {googleLogo,fbLogo} from '../images/allImages'
 import { useState } from 'react';
 import { useHistory,Link } from "react-router-dom";
 import axios from 'axios';
+import { GoogleAuthProvider, FacebookAuthProvider,signInWithPopup } from "firebase/auth";
+import {auth} from './firebase'
 
 function SignupFlow1() {
+    const googleProvider = new GoogleAuthProvider();
+    const facebookProvider = new FacebookAuthProvider();
+
         let history = useHistory();
         const [data, setData] = useState({
             name: "",
@@ -15,6 +20,7 @@ function SignupFlow1() {
         const [border1,setBorder1]=useState(false);
         const [border2,setBorder2]=useState(false);
         const [isloading, setIsLoading] = useState(false);
+        const [inputError,setinputError] = useState(false);
 
         let {name,email,tc}=data;
 
@@ -22,15 +28,16 @@ function SignupFlow1() {
                e.preventDefault();
 
             if (name === "") {
-                alert("add name");
+                setinputError(true);
                 setIsLoading(false);
 
             }else if (email === "") {
-                alert("add email");
+                setinputError(true)
                 setIsLoading(false);
 
             }else {
-                
+            
+            setinputError(false);
             axios.post("http://localhost:2325/signup",{
                 name:name,
                 email:email,
@@ -51,6 +58,48 @@ function SignupFlow1() {
             localStorage.setItem("name",name);
         }
     };
+
+            
+const googleLogin = () => {
+    signInWithPopup(auth,googleProvider)
+        .then((result) => {
+            const credential = GoogleAuthProvider.credentialFromResult(result);
+            const token = credential?.accessToken;
+            const user = result.user;
+            let {email,displayName,photoURL} = user
+            axios.post("http://localhost:2325/signup",{
+                name:displayName,
+                email:email,
+                tc:tc,
+            })
+        })
+        .catch((error) => {
+            console.log(error);
+        });
+
+    }
+
+    
+const facebookLogin = () => {
+    signInWithPopup(auth,facebookProvider )
+        .then((result) => {
+            const credential = GoogleAuthProvider.credentialFromResult(result);
+            const token = credential?.accessToken;
+            const user = result.user;
+            let {email,displayName,photoURL} = user
+            axios.post("http://localhost:2325/signup",{
+                name:displayName,
+                email:email,
+                tc:tc,
+            })
+            
+        })
+        .catch((error) => {
+            console.log(error)
+        });
+
+    }
+
 
         const handleChange = (e) => {
             let { name, value,type,checked } = e.target
@@ -92,11 +141,11 @@ return (
 
         <form onSubmit={checkData}>
             <div id="signup-form">
-                <div style={border1?{border:"2px solid #3277D8"}:{border:"1px solid grey"}}>
-                    <input type="text" name="name" id="" placeholder="NAME" onChange={handleChange}  onFocus={changeBorder1} onBlur={changeBorderToOriginal1}/>
+                <div style={border1?{border:"1px solid #3277D8"}:{border:"1px solid grey"}}  >
+                    <input type="text" name="name" id="" placeholder={inputError?"Enter your Name":"NAME"} onChange={handleChange}  onFocus={changeBorder1} onBlur={changeBorderToOriginal1} />
                 </div>
-                <div style={border2?{border:"2px solid #3277D8"}:{border:"1px solid grey"}}>
-                    <input type="text" name="email" id="" placeholder="EMAIL" onChange={handleChange} onFocus={changeBorder2} onBlur={changeBorderToOriginal2}/>
+                <div style={border2?{border:"1px solid #3277D8"}:{border:"1px solid grey"}}>
+                    <input type="text" name="email" id="" placeholder={inputError?"Enter your Email":"EMAIL"} onChange={handleChange} onFocus={changeBorder2} onBlur={changeBorderToOriginal2}/>
                 </div>
             </div>
 
@@ -119,8 +168,8 @@ return (
 
 
             <div id="signup-third">
-                <div><span><img src={fbLogo} alt="facebook logo" /></span>SIGN UP WITH FACEBOOK</div>
-                <div><span><img src={googleLogo} alt="google logo" /></span>SIGN UP WITH GOOGLE</div>
+                <div onClick={facebookLogin}><span><img src={fbLogo} alt="facebook logo" /></span>SIGN UP WITH FACEBOOK</div>
+                <div onClick={googleLogin}><span><img src={googleLogo} alt="google logo" /></span>SIGN UP WITH GOOGLE</div>
             </div>
 
             <div id="have-account">Already have an account? <span>Login</span></div>
