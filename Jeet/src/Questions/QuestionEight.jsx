@@ -78,11 +78,11 @@ export const QuestionEight = ({ handelPage, co2 }) => {
             console.log(platformValue);
             handelPage(
               platformValue == "Yes"
-                ? 1.5
+                ? 2
                 : platformValue == "Not yet"
-                ? 2.7
+                ? 3
                 : platformValue == "Not sure"
-                ? 4.1
+                ? 5
                 : 0
             );
           }}

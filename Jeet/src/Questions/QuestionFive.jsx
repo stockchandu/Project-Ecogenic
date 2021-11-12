@@ -87,11 +87,11 @@ export const QuestionFive = ({ handelPage, co2 }) => {
             handelPage(platformValue == "Frugal"
             ? 1.5
             : platformValue == "Average"
-            ? 2.4
+            ? 3
             : platformValue == "Shopper"
-            ? 4
+            ? 5
             : platformValue == "Luxury shopper"
-            ? 6.3
+            ? 7
             : 0);
           }}
         >

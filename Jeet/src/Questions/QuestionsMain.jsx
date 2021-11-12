@@ -8,18 +8,33 @@ import { QuestionFive } from "./QuestionFive";
 import { QuestionSix } from "./QuestionSix";
 import { QuestionSeven } from "./QuestionSeven";
 import { QuestionEight } from "./QuestionEight";
+import { AnnualCarbonFootprintShow } from "./AnnualCarbonFootprintShow";
 
 export const QuestionsMain = () => {
   const [page, setPage] = useState(1);
   let [co2, setCo2] = useState(1.75);
+  const [fsdhm, setfsdhm] = useState([]);
 
   const handelPage = (val) => {
-    let v = val / 4;
+    let v = val / 8;
     console.log(v);
+    setfsdhm([...fsdhm, v]);
 
     setPage(page + 1);
     setCo2(co2 + v);
   };
+  const handelReset = () => {
+    setPage(1);
+  };
+
+  // const [carbonFootprint, setCarbonFootprint] = useState(totalCo2);
+  const [footprintData, setFootprintData] = useState({
+    flying: 100,
+    spending: 13,
+    housing: 9,
+    diet: 7,
+    mobility: 2,
+  });
   return (
     <>
       {page === 1 ? (
@@ -38,8 +53,16 @@ export const QuestionsMain = () => {
         <QuestionSeven handelPage={handelPage} co2={co2.toFixed(2)} />
       ) : page == 8 ? (
         <QuestionEight handelPage={handelPage} co2={co2.toFixed(2)} />
+      ) : page == 9 ? (
+        <AnnualCarbonFootprintShow
+          footprintData={footprintData}
+          handelPage={handelPage}
+          carbonFootprint={co2}
+          valueArr={fsdhm}
+          handelReset={handelReset}
+        />
       ) : (
-        co2.toFixed(2)
+        "next page"
       )}
       {/*  */}
       {/* <QuestionTwo /> */}
