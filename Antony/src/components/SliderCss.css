@@ -63,3 +63,7 @@
 .carousel .thumbs {
   display: none;
 }
+.carousel {
+  position: relative;
+  width: 100%;
+}
