@@ -6,7 +6,7 @@ import { AnnualCarbonFootprintShow } from "./components/AnnualCarbonFootprintSho
 import { StrategySlider } from "./components/StrategySlide";
 import { GreatChoice } from "./components/GreatChoice";
 function App() {
-  const [page, setPage] = useState(4);
+  const [page, setPage] = useState(1);
   const [carbonFootprint, setCarbonFootprint] = useState(2.75);
   const [footprintData, setFootprintData] = useState({
     flying: 100,
