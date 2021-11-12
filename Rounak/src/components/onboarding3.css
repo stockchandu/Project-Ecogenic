@@ -1,47 +1,48 @@
 #getStarted{
     display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 6px 6px 6px 8px;
-
-position: absolute;
-width: 334px;
-height: 56px;
-left: 40px;
-top: 522px;
-
-/* Green - 900 - Primary */
-
-background: #149F65;
-border-radius: 4px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 6px 6px 8px;
+    
+    position: absolute;
+    width: 334px;
+    height: 56px;
+    left: 40px;
+    top: 636px;
+    
+    /* Green - 900 - Primary */
+    
+    background: #149F65;
+    border-radius: 4px;
 }
 
 #ecogen{
     position: absolute;
-width: 286px;
-height: 37px;
-left: 64px;
-top: 250px;
+width: 231.89px;
+height: 30px;
+left: 91px;
+top: 305px;
+
 }
 
 #p1{
     position: absolute;
-width: 270px;
-height: 20px;
-left: 72px;
-top: 617px;
-
-font-family: DM Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 20px;
-/* identical to box height, or 111% */
-
-letter-spacing: 0.25px;
-
-color: #6C757D;
+    width: 270px;
+    height: 20px;
+    left: 72px;
+    top: 752px;
+    
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 20px;
+    /* identical to box height, or 111% */
+    
+    letter-spacing: 0.25px;
+    
+    color: #6C757D;
 }
 
 #p2{
@@ -49,7 +50,7 @@ color: #6C757D;
 width: 217px;
 height: 22px;
 left: 99px;
-top: 691px;
+top: 842px;
 
 font-family: DM Sans;
 font-style: normal;
