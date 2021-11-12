@@ -5,7 +5,7 @@
   margin: auto;
   margin-top: 20px;
   color: white;
-  font-family: DM Sans;
+  font-family: "DM Sans", sans-serif;
   font-style: normal;
 }
 
@@ -18,7 +18,7 @@
   outline: none;
   border: none;
   border-radius: 4px;
-  font-family: DM Sans;
+  font-family: "DM Sans", sans-serif;
   font-style: normal;
 }
 button.btn {
@@ -46,10 +46,16 @@ button.scan-btn {
 }
 
 .slider1 {
-  width: 253px;
-  height: 252px;
+  height: 152px;
+  padding: 10px;
   margin-top: 10px;
-  border: 1px solid black;
+  margin-top: -3px;
+  margin-bottom: -2px;
+}
+.slider-images-slider1 {
+  width: 185px;
+  height: 65px;
+  border-radius: 12px 12px 0px 0px;
 }
 
 .blog {
@@ -82,7 +88,7 @@ button.scan-btn {
   background: rgba(20, 159, 101, 0.09);
   color: #149f65;
   font-size: 14px;
-  font-family: DM Sans;
+  font-family: "DM Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
 }
@@ -91,18 +97,24 @@ button.scan-btn {
   height: 73px;
 }
 .sliderText {
-  width: 253px;
-  height: 79px;
+  width: 185px;
+  height: 65px;
+  background-color: white;
+  border-radius: 0px 0px 12px 12px;
+  margin-top: -8px;
 }
 
 .sliderText > p {
-  font-family: Rubik;
+  font-family: "Rubik", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 15px;
+  font-size: 12px;
   letter-spacing: 0.150086px;
   width: 152px;
   height: 44px;
+  text-align: left;
+  margin-left: 10px;
+  padding: 10px;
 }
 .ecohoy-container {
   width: 382px;
@@ -128,7 +140,7 @@ button.scan-btn {
   margin-bottom: -8px;
 }
 .ecohoy-subheading {
-  font-family: DM Sans;
+  font-family: "DM Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -144,10 +156,10 @@ button.scan-btn {
   width: 205px;
   height: 36px;
   border-radius: 6px;
-  font-family: Open Sans;
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 13px;
+  font-size: 12px;
   line-height: 20px;
   letter-spacing: 0.25px;
   color: #6c757d;
@@ -243,9 +255,10 @@ button.scan-btn {
   outline: none;
   color: rgba(20, 159, 101, 1);
   margin-left: 110px;
-  font-family: DM Sans;
+  font-family: "DM Sans", sans-serif;
   font-size: 16px;
   font-weight: 500;
+  background-color: transparent;
 }
 
 .bottom-container {
@@ -280,7 +293,7 @@ button.scan-btn {
   text-align: justify;
 }
 .tree-subheading {
-  font-family: DM Sans;
+  font-family: "DM Sans", sans-serif;
   font-size: 14px;
   line-height: 18px;
   color: #212529;
@@ -301,7 +314,7 @@ button.scan-btn {
 }
 
 .like-image {
-  font-family: DM Sans;
+  font-family: "DM Sans", sans-serif;
   font-style: normal;
   width: 22px;
   height: 22px;
@@ -313,7 +326,7 @@ button.scan-btn {
 }
 .like-image2 {
   color: #ae8a08;
-  font-family: DM Sans;
+  font-family: "DM Sans", sans-serif;
   font-style: normal;
   font-size: 12px;
   margin-top: 1px;
@@ -327,7 +340,7 @@ button.scan-btn {
 .read-content {
   font-weight: 500;
   font-size: 16px;
-  font-family: DM Sans;
+  font-family: "DM Sans", sans-serif;
   font-weight: bold;
 }
 .read-arrow {
@@ -355,13 +368,6 @@ button.scan-btn {
   margin-top: 0px;
   margin-bottom: -6px;
 }
-/* .bottom-last {
-  background-color: white;
-  position: relative;
-  padding: 1px;
-  margin-top: 1px;
-  margin-bottom: 11px;
-} */
 .profile-image {
   width: 44px;
   height: 44px;
@@ -377,7 +383,7 @@ button.scan-btn {
   font-weight: bold;
 }
 .profile-content {
-  font-family: DM Sans;
+  font-family: "DM Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -389,7 +395,7 @@ button.scan-btn {
   margin-left: 10px;
   color: #000000;
   opacity: 0.4;
-  font-family: DM Sans;
+  font-family: "DM Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 12px;

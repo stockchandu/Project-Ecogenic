@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import imgSlider from "../Images/slider_1.png";
 import "../App.css";
 export default class SliderBlog extends Component {
   render() {
@@ -25,7 +26,7 @@ export default class SliderBlog extends Component {
         {
           breakpoint: 600,
           settings: {
-            slidesToShow: 1,
+            slidesToShow: 2,
             slidesToScroll: 1,
             initialSlide: 1,
           },
@@ -33,7 +34,7 @@ export default class SliderBlog extends Component {
         {
           breakpoint: 480,
           settings: {
-            slidesToShow: 1,
+            slidesToShow: 2,
             slidesToScroll: 1,
           },
         },
@@ -44,7 +45,11 @@ export default class SliderBlog extends Component {
         <Slider {...settings}>
           <div className="slider1">
             <div className="sliderImage">
-              <img src="Rectangle 7.png" alt="Logo" />
+              <img
+                src={imgSlider}
+                alt="Logo"
+                className="slider-images-slider1"
+              />
             </div>
             <div className="sliderText">
               <p>What are your thoughts on Shein?</p>
@@ -52,7 +57,11 @@ export default class SliderBlog extends Component {
           </div>
           <div className="slider1">
             <div className="sliderImage">
-              <img src="Rectangle 7.png" alt="Logo" />
+              <img
+                src={imgSlider}
+                alt="Logo"
+                className="slider-images-slider1"
+              />
             </div>
             <div className="sliderText">
               <p>What are your thoughts on Shein?</p>
