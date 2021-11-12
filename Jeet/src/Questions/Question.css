@@ -52,7 +52,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 14px 20px;
+  padding: 14px 14px;
 
   position: absolute;
   left: 3.86%;
@@ -63,7 +63,7 @@
   background: #ffffff;
   border-radius: 14px 14px 14px 0px;
 
-  font-family: Segoe UI;
+  font-family: DM Sans;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -93,7 +93,7 @@
   background: #ffffff;
   border-radius: 14px 14px 14px 0px;
 
-  font-family: Segoe UI;
+  font-family: DM Sans;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -109,11 +109,11 @@
 }
 .botton {
   position: absolute;
-  height: 356px;
+  height: 367px;
   left: 0%;
   right: 0%;
-  top: 63%;
-  bottom: 0%;
+  top: 59%;
+  /* bottom: 0%; */
 
   background: #ffffff;
   box-shadow: 0px -5px 15px rgba(0, 0, 0, 0.05);
@@ -126,7 +126,7 @@
   top: 9%;
   /* bottom: 0%; */
 
-  font-family: Segoe UI;
+  font-family: DM Sans;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -182,18 +182,16 @@
 }
 .rangeSlider {
   position: absolute;
-  width: 164px;
-  /* height: 8
-px
-; */
+  width: 329px;
+  /* height: 8px; */
   left: 39px;
-  top: 154px;
+  top: 143px;
 }
-.clear {
+.clear1 {
   position: absolute;
   left: 24.64%;
   right: 63.04%;
-  /* top: 68.05%; */
+  top: 66.05%;
   /* bottom: 11.05%; */
 
   font-family: DM Sans;
@@ -206,15 +204,15 @@ px
   letter-spacing: -0.32px;
 
   /* Gray - 900 */
-
+  border: none;
   color: #212529;
 }
 .next {
   position: absolute;
   left: 45.17%;
   right: 24.4%;
-  top: 84.15%;
-  bottom: 8.59%;
+  top: 61.15%;
+  /* bottom: 8.59%; */
 
   background: #149f65;
   border-radius: 58px;
@@ -239,27 +237,4 @@ px
   order: 0;
   flex-grow: 0;
   margin: 0px 10px;
-}
-
-.clear {
-  position: absolute;
-  left: 24.64%;
-  right: 63.04%;
-  top: 84.05%;
-  bottom: 11.05%;
-  border: none;
-  height: 75px;
-  font-family: DM Sans;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 26px;
-  /* identical to box height */
-
-  letter-spacing: -0.32px;
-  background-color: #ffffff;
-
-  /* Gray - 900 */
-
-  color: #212529;
 }

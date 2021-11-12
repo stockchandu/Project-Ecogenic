@@ -36,10 +36,11 @@ border-radius: 14px 14px 14px 0px;
 justify-content: center;
 }
 
+
 #chat-text{
     
 padding: 0px;
-font-family: Segoe UI;
+font-family: DM Sans;
 font-style: normal;
 font-weight: normal;
 font-size: 20px;
@@ -126,7 +127,7 @@ height: 43px;
 left: 111px;
 top: 58px;
 
-font-family: Segoe UI;
+font-family: DM Sans;
 font-style: normal;
 font-weight: 600;
 font-size: 32px;
@@ -140,7 +141,7 @@ right: 37.45%;
 top: -3%;
 bottom: 68.46%;
 
-font-family: Segoe UI;
+font-family: DM Sans;
 font-style: normal;
 font-weight: normal;
 font-size: 20px;
@@ -243,4 +244,47 @@ left: 3.62%;
 right: 87.92%;
 top: -105.64%;
 bottom: 89.73%;
+}
+
+#next1{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 22px 20px;
+
+position: absolute;
+left: 59.06%;
+right: 7.58%;
+top: 72.83%;
+bottom: 12.92%;
+
+background: #149F65;
+border-radius: 58px;
+font-family: DM Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 21px;
+}
+
+#skip1{
+    position: absolute;
+left: 35.58%;
+right: 63.13%;
+top: 77.83%;
+bottom: 8.15%;
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 26px;
+/* identical to box height */
+
+letter-spacing: -0.32px;
+
+/* Gray - 900 */
+
+color: #212529;
 }

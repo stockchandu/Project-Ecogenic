@@ -40,8 +40,9 @@ export const QuestionOne = ({ handelPage, co2 }) => {
               />
             </Wrapper>
           </div>
+
           <button
-            className="clear"
+            className="clear1"
             onClick={() => {
               setVal(1);
               console.log(val);

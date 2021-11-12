@@ -6,8 +6,8 @@ import { QuestionsMain } from "./Questions/QuestionsMain";
 function App() {
   return (
     <>
-      <SplashMain />
-      {/* <QuestionsMain/> */}
+      {/* <SplashMain /> */}
+      <QuestionsMain/>
     </>
   );
 }

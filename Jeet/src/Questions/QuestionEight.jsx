@@ -73,7 +73,7 @@ export const QuestionEight = ({ handelPage, co2 }) => {
           Clear
         </button>
         <button
-          className="next"
+          className="next_3"
           onClick={() => {
             console.log(platformValue);
             handelPage(
