@@ -22,7 +22,7 @@ const Para = styled.p`
   margin-top: 0px;
   color: #212529;
 `;
-export function GreatChoice() {
+export function GreatChoice({ handelPage }) {
   const WrapperDiv = styled.div`
     animation: myfirst 1s;
     margin-top: 370px;
@@ -34,7 +34,9 @@ export function GreatChoice() {
       }
     }
   `;
-
+  setTimeout(() => {
+    handelPage();
+  }, 1500);
   return (
     <>
       <WrapperDiv>
