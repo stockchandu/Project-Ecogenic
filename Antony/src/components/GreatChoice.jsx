@@ -24,18 +24,12 @@ const Para = styled.p`
 `;
 export function GreatChoice() {
   const WrapperDiv = styled.div`
-    /* transition: 0.5s;
-   
-    transform: "translateY(10%)"; */
-
     animation: myfirst 1s;
-    /* animation-direction: alternate; */
     margin-top: 370px;
     @keyframes myfirst {
       0% {
         margin-top: 770px;
       }
-
       100% {
       }
     }
