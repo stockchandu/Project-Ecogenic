@@ -16,7 +16,7 @@ $font-color:#212529;
 
 #otp-sec-1>div:nth-child(1){
     @include common-font;
-    font-family: Open Sans;
+    font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-size: 18px;
     line-height: 24px;   
@@ -25,9 +25,13 @@ $font-color:#212529;
 }
 
 #otp-sec-1>div:nth-child(2){
-    font-weight: 600;
-    width: 90vw;
+    width: 85vw;
     margin:0 auto 9% auto;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
 }
 
 #otp-input-box{
@@ -48,7 +52,6 @@ $font-color:#212529;
     margin-left: 5%;
     border-radius: 5px;
     font-size: 30px;
-    font-family: DM Sans;
     @include common-font;
 }
 
@@ -73,8 +76,10 @@ $font-color:#212529;
     background-color: #149F65;
     margin-top: 10%;
     color: white;
-    font-weight: 600;
+    font-weight: 500;
     letter-spacing: 1.5px;
+    font-size: 14px;
+    font-family: 'Rubik', sans-serif;
 }
 
 #btn-resend{
@@ -85,26 +90,31 @@ $font-color:#212529;
     width: 90vw;
     margin: auto;
 }
+
 #btn-resend>div:nth-child(1)>button{
     background-color: #ffffff;
     color: rgb(0, 0, 0);
     border: 1px solid #6C757D;;
-    font-weight: 500;
-    font-size: 15px;
+    font-weight: normal;
+    font-size: 12px;
     width: 90vw;
     border-radius: 5px;
-    height: 8vh;
+    height: 55px;
     margin-top: 4%;
-    font-family: Rubik;
     letter-spacing: 1.25px;
     text-transform: uppercase;
+    font-family: 'Rubik', sans-serif;
 }
 
 #btn-resend>div:nth-child(2){
-
     margin-top: 60%;
     color: #6C757D;
-    @include common-font;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
 }
 
 #btn-resend>div:nth-child(2)>span{
@@ -113,7 +123,10 @@ $font-color:#212529;
 
 #invalid-otp{
     text-align: center;
-    font-weight: 600;
     margin-bottom: 1%;
-    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
 }

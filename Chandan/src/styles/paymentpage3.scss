@@ -55,11 +55,17 @@
 
 #payment-1-parent>div:nth-child(4)>div:nth-child(1){
     margin: 0 5% 0 3%; 
+
 }
 
 #payment-1-parent>div:nth-child(4)>div:nth-child(2){
     margin: 0 50% 0 0; 
     font-size: 18px;
+}
+
+#payment-1-parent>div:nth-child(4)>div:nth-child(2)>a{
+    text-decoration: none;
+    color: #149F64;
 }
 
 #payment-1-parent>div:nth-child(4)>div:nth-child(3){
@@ -93,9 +99,10 @@
     color: #149F64;
 }
 
-#payment-1-parent>div:nth-child(6)>a{
+#payment-1-parent>div:nth-child(6)>div:nth-child(2)>a{
     color: #149F64;
     text-decoration: none;
+    
 }
 
 #payment-1-parent>div:nth-child(6)>div:nth-child(1){

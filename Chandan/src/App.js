@@ -9,6 +9,7 @@ import SuccessPage from './components/SuccessPage'
 import FailurePage from './components/FailurePage'
 import Authenticate from './components/Authenticate'
 import CardOtp from './components/CardOtp'
+import GooglePay from './components/GooglePay'
 import Homepage from './components/Homepage'
 import { BrowserRouter as Router, Switch,Route } from "react-router-dom";
 
@@ -52,6 +53,9 @@ function App() {
           </Route>
           <Route exact path="/CardOtp">
             <CardOtp/>
+          </Route>
+          <Route exact path="/GooglePay">
+            <GooglePay/>
           </Route>
         </Switch>
       </Router>

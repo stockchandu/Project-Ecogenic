@@ -25,7 +25,7 @@ const PaymentPage3 = () =>{
               {/* nthchild-4 */}
              <div>
                  <div><img src={googlePay} alt="" /></div>
-                 <div>Google Pay</div>
+                 <div><Link to="/GooglePay">Google Pay</Link></div>
                  <div></div>
              </div>
 
