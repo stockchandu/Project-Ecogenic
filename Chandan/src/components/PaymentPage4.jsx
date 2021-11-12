@@ -2,7 +2,7 @@ import '../styles/paymentpage4.scss';
 import React from "react"
 import { useState } from 'react'
 import { hideemail } from '../utils/hideemail';
-import { useHistory } from "react-router-dom";
+import { useHistory,Link } from "react-router-dom";
 import { whiteArrow, blackCard, masterCard, visaCard } from '../images/allImages';
 
 const PaymentPage4 = () => {
@@ -154,7 +154,7 @@ const PaymentPage4 = () => {
 
                 {/* child 1 */}
                 <div>
-                    <div><img src={whiteArrow} alt="" /></div>
+                    <div><Link to="/PaymentPage3"><img src={whiteArrow} alt="" /></Link></div>
                     <div>Add New Card</div>
                 </div>
 

@@ -8,7 +8,7 @@ const PaymentPage3 = () =>{
 
                 {/* nthchild-1 */}
              <div>
-                 <div><img src={whiteArrow} alt="" /></div>
+                 <div><Link to="/PaymentPage2"><img src={whiteArrow} alt="" /></Link></div>
                  <div>Bill Total: Rs.140</div>
              </div>
 
@@ -16,7 +16,7 @@ const PaymentPage3 = () =>{
              <div>
                  <div><img src={personHead} alt="" /></div>
                  <div>malikchandan926@gmail.com</div>
-                 <div>scroll arrow</div>
+                 <div></div>
              </div>
 
               {/* nthchild-3 */}
