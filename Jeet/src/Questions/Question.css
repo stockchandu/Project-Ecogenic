@@ -1,9 +1,7 @@
 .continer {
   position: absolute;
   width: 414px;
-  height: 736px;
-  left: 0px;
-  top: 0px;
+  /* height: 736px; */
 }
 .img {
   width: 100%;
@@ -111,9 +109,10 @@
 }
 .botton {
   position: absolute;
+  height: 356px;
   left: 0%;
   right: 0%;
-  top: 57.7%;
+  top: 63%;
   bottom: 0%;
 
   background: #ffffff;
@@ -124,8 +123,8 @@
   position: absolute;
   left: 9%;
   right: 49.07%;
-  top: 61%;
-  bottom: 0%;
+  top: 9%;
+  /* bottom: 0%; */
 
   font-family: Segoe UI;
   font-style: normal;
@@ -144,10 +143,10 @@
   position: absolute;
   left: 38.54%;
   right: 0%;
-  top: 61.86%;
+  top: 10.86%;
   bottom: 23.81%;
   width: 17%;
-  height: 1%;
+  height: 2%;
   background: #e3e3e3;
   border-radius: 12px;
 }
@@ -158,7 +157,7 @@
   right: 39.84%;
   top: 2.86%;
   bottom: 23.81%;
- 
+
   height: 100%;
   background: #149f65;
   border-radius: 12px;
@@ -167,8 +166,8 @@
   position: absolute;
   left: 7.25%;
   right: 42.27%;
-  top: 66.52%;
-  bottom: 31.14%;
+  top: 23.52%;
+  /* bottom: 31.14%; */
 
   font-family: DM Sans;
   font-style: normal;
@@ -183,19 +182,19 @@
 }
 .rangeSlider {
   position: absolute;
-  width: 335px;
+  width: 164px;
   /* height: 8
 px
 ; */
   left: 39px;
-  top: 543px;
+  top: 154px;
 }
 .clear {
   position: absolute;
   left: 24.64%;
   right: 63.04%;
-  top: 86.05%;
-  bottom: 11.05%;
+  /* top: 68.05%; */
+  /* bottom: 11.05%; */
 
   font-family: DM Sans;
   font-style: normal;
