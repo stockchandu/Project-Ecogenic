@@ -65,32 +65,14 @@ export const PageTwo = (props) => {
       ...stateArray,
       [guy]: true,
     });
-    // setStateArray({
-    //   ...stateArray,
-    //   News: true,
-    // });
+
     setIsSelected(true);
     //console.log("setting true............", stateArray);
   };
   const handleRemoveIsSelected = (guy) => {
-    // console.log(
-    //   "guy inside remove select..................................",
-    //   guy
-    // );
     var obj = stateArray;
     obj[guy] = false;
     setStateArray(obj);
-    //stateArray[guy] = false;
-    // setStateArray({
-    //   ...stateArray,
-    //   [guy]: false,
-    // });
-    // setStateArray({
-    //   ...stateArray,
-    //   News: true,
-    // });
-    // setIsSelected(true);
-    //console.log("setting false............", stateArray);
   };
 
   const RoundButtonDiv = styled.div`

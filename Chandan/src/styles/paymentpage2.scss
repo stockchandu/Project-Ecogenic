@@ -48,28 +48,29 @@
 }
 
 #make-payment{
-    width: 100vw;
-    display: flex;
-    justify-content: center;
+    width: 95vw;
+    // display: flex;
+    // justify-content: center;
     margin-top: 10%;
 }
 
-#make-payment>button{
-    width: 90%;
+#make-payment>a>button{
+    width: 100%;
     border: 1px solid #149F65;
     border-radius: 10px;
     height: 68px;
     background-color: white;
     letter-spacing: -0.32px;
-    font-family: "DM Sans";
+    font-family: 'DM Sans', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     color: #149F65;
+    margin-left: 3%;
 }
 
 #offset>div:nth-child(1){
-    font-family: "DM Sans";;
+    font-family: 'DM Sans', sans-serif;;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -80,7 +81,7 @@
 }
 
 #offset>div:nth-child(2){
-    font-family: "DM Sans";;
+    font-family: 'DM Sans', sans-serif;;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -95,7 +96,7 @@
 }
 
 #month-charge>div:nth-child(1){
-    font-family: "DM Sans";;
+    font-family: 'DM Sans', sans-serif;;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -105,7 +106,7 @@
 }
 
 #month-charge>div:nth-child(2){
-    font-family: "DM Sans";;
+    font-family: 'DM Sans', sans-serif;;
     font-style: normal;
     font-weight: bold;
     font-size: 20px;

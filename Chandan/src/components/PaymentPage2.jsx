@@ -1,5 +1,5 @@
 import '../styles/paymentpage2.scss';
-
+import { Link } from "react-router-dom";
 const PaymentPage1 = () =>{
     return (
         <>
@@ -23,7 +23,7 @@ const PaymentPage1 = () =>{
                        </div>
                    </div>
 
-                   <div id="make-payment"><button>Make Payment</button></div>
+                   <div id="make-payment"><Link to="/PaymentPage3"><button>Make Payment</button></Link></div>
                 </div>
                 
             </div>

@@ -3,7 +3,7 @@ import "./onboarding1.css"
 const Onboarding1 = () => {
     return (
         <div>
-            <img id="load" src="https://i.stack.imgur.com/MEBIB.gif" alt="" />
+            <img id="load" src={require("../images/loading_img.gif").default} alt="NONE" />
         </div>
     )
 }

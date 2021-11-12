@@ -1,22 +1,21 @@
-
-import { Link, useHistory } from "react-router-dom";
-const Authenticate = () =>{
-    let history=useHistory();
-
-    const imgStyle={
-        width:"200px",
-        marginLeft:"20%"
+import { gifSpinner } from '../images/allImages';
+const Authenticate = () => {
+       const imgStyle = {
+        width: "200px",
+        marginLeft: "20%"
     }
-    window.onload = function () {
 
-        window.location="/CardOtp"
+    window.onload = function () {
+        setTimeout(()=>{
+            window.location = "/CardOtp"
+        },5000)
     }
 
     return (
         <>
-    <h3>authenticating...</h3>
-    <img src="https://imagesdataporter.s3.ap-south-1.amazonaws.com/gifspinner.gif" alt="" style={imgStyle}/>
-    </>
+            <h3>authenticating...</h3>
+            <img src={gifSpinner} alt="" style={imgStyle} />
+        </>
     )
 }
 

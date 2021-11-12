@@ -1,8 +1,7 @@
 import '../styles/paymentpage3.scss';
 import { whiteArrow,personHead,googlePay,plusIcon,masterCard,visaCard,mnpPayment} from '../images/allImages';
-
+import { Link } from "react-router-dom";
 const PaymentPage3 = () =>{
-
     return (
         <>
          <div id="payment-1-parent">
@@ -36,7 +35,7 @@ const PaymentPage3 = () =>{
               {/* nthchild-6 */}
              <div>
                  <div><img src={plusIcon} alt="" /></div>
-                 <div>Add New Card
+                 <div> <Link to="/PaymentPage4">Add New Card</Link> 
                      <div>
                          <img src={masterCard} alt="" />
                          <img src={visaCard} alt="" />

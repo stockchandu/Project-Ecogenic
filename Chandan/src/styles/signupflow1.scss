@@ -23,13 +23,14 @@
 }
 
 .text-center{
-    font-family: Open Sans;
+    font-family: "Open Sans";
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
     letter-spacing: 0.15px;
     margin-bottom: 15%;
     color: #212529;
+    text-align: center;
 }
 
 #signup-form{
@@ -70,7 +71,7 @@
 .checkbox>div:nth-child(2){
     font-size: 12px;
     margin-left: 2%;
-    margin-top: 2.5%;
+    margin-top: 4%;
     color: #6C757D;
     letter-spacing: 0.4px;
     line-height: 19px;
@@ -87,9 +88,8 @@
     width: 90vw;
     height: 7vh;
     margin: 1% auto;
-    color:#149F65 ;
-    border: 1px solid grey;
-    background-color: white;
+    border:0;
+    font-size: 15px;
     @include font-style;
     @include display-tems;
 }
