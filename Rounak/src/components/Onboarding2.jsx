@@ -3,7 +3,7 @@ import "./onboarding2.css"
 const Onboarding2 = ()=>{
     return(
         <div>
-            <img id="ecogenic" src={require("../images/Group 1981.png").default} alt="none"/>
+            <img id="ecogenic" src={require("../images/undraw_nature_m5ll 1.png").default} alt="none"/>
         </div>
     )
 }
