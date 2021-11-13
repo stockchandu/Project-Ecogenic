@@ -2,6 +2,8 @@ import '../styles/paymentpage3.scss';
 import { whiteArrow,personHead,googlePay,plusIcon,masterCard,visaCard,mnpPayment} from '../images/allImages';
 import { Link } from "react-router-dom";
 const PaymentPage3 = () =>{
+  let getEmail = localStorage.getItem("email");
+  let getName = localStorage.getItem("name");
     return (
         <>
          <div id="payment-1-parent">
@@ -15,7 +17,7 @@ const PaymentPage3 = () =>{
                  {/* nthchild-2 */}
              <div>
                  <div><img src={personHead} alt="" /></div>
-                 <div>malikchandan926@gmail.com</div>
+                 <div>{getEmail}</div>
                  <div></div>
              </div>
 

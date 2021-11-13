@@ -1,0 +1,103 @@
+.annual-foot-print-one {
+    width: 382px;
+    height: 398px;
+    margin: auto;
+    border-radius: 12px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 40px rgba(9, 9, 10, 0.15);
+    border-radius: 12px;
+    margin-top: 20px;
+    margin-bottom: 5%;
+  }
+  .annual-foot-print-one-content {
+    width: 187px;
+    height: 14px;
+    margin-left: 18px;
+    font-family: Rubik;
+  }
+  .annual-foot-print-one-content > p {
+    font-family: Rubik;
+    font-size: 12px;
+    line-height: 14px;
+    position: absolute;
+    align-items: center;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin-top: 23px;
+    color: #4F5458;
+    font-style: normal;
+  }
+  .info-logo {
+    margin-left: 327px;
+    position: absolute;
+    margin-top: 18px;
+    color: #149F65;
+    font-size: 24px;
+  }
+  .cicle-image-footprint {
+    margin-top: 66px;
+    margin-left: 47px;
+  }
+  .calculated-value-of-footprint {
+    margin-top: -257px;
+    margin-left: 152px;
+  }
+  .start-tracking-footprinttt {
+    width: 200px;
+    height: 50px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 91px;
+    margin-top: 24px;
+  }
+  .start-tracking-footprinttt > p {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 19px;
+    margin-left: -8px;
+    display: flex;
+    align-items: center;
+    color: #212529;
+  }
+  .arrow-footprint-calculate-ave {
+    margin-left: 10px;
+    color: #000000;
+    margin-left: -28px;
+    margin-top: 9px;
+    font-size: 21px;
+  }
+  .tons-of-co2-0 {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    font-size: 31.518px;
+    line-height: 41px;
+    letter-spacing: 0.300918px;
+    color: #212529;
+    margin-left: -15px;
+  }
+  .tons-of-co2-1 {
+    width: 104px;
+    font-weight: 500;
+    height: 50px;
+    margin-left: -29px;
+    margin-top: -19px;
+    color: #212529;
+    font-weight: 500;
+    font-size: 18.3855px;
+    font-family: "DM Sans", sans-serif;
+  }
+  .desp-of-footprint > p {
+    margin-left: 79px;
+    width: 200px;
+    text-align: center;
+    margin-top: -12px;
+    color: #343A40;
+    letter-spacing: 0.300918px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    font-family: "DM Sans", sans-serif;
+  }

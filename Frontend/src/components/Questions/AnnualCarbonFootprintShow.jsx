@@ -238,9 +238,8 @@ export const AnnualCarbonFootprintShow = (props) => {
   var mobility = (mobilityCount * 100) / totalCount;
 
   let carbonValue = props.carbonFootprint.toFixed(2);
-  localStorage.setItem("carbanvalue",carbonValue);
-
-
+  localStorage.setItem("carbonvalue",carbonValue);
+  
   const CarbonDataBar = styled.div`
     /* background-color: white; */
     height: 68px;

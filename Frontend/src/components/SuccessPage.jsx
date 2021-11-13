@@ -8,7 +8,7 @@ const SucessPage = () => {
         <div className="status-image">
             <div><img src={successGif} alt="" /></div>
             <div>Payment successfully completed</div>
-            <div><img src={blueArrow} alt="" /><Link to="/">Go back to home</Link></div>
+            <div><img src={blueArrow} alt="" /><Link to="/Homepage">Go back to home</Link></div>
         </div>
         </>
     )

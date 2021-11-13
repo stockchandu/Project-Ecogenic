@@ -27,10 +27,10 @@ function SignupFlow3() {
     let data = await axios.get("http://localhost:2325/otp");
     setOtp(data.data);
   }
-
+// 
   let checkOtp;
   if (otpdata === undefined) {
-    // return 0
+    return 0
   } else {
     let { otp } = otpdata;
     checkOtp = (e) => {
@@ -45,7 +45,7 @@ function SignupFlow3() {
         let dbotp = Number(otp);
         if (newotp === dbotp) {
           setTimeout(() => {
-            history.push("/");
+            history.push("/Homepage");
           }, 7000);
         } else {
           setTimeout(() => {

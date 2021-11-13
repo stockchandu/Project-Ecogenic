@@ -8,14 +8,12 @@ import { QuestionSix } from "./QuestionSix";
 import { QuestionSeven } from "./QuestionSeven";
 import { QuestionEight } from "./QuestionEight";
 import { AnnualCarbonFootprintShow } from "./AnnualCarbonFootprintShow";
+import StrategySlideParent from "../PriceStrategy/StrategySlideParent";
 
 const QuestionsMain = () => {
   const [page, setPage] = useState(1);
   let [co2, setCo2] = useState(1.75);
   const [fsdhm, setfsdhm] = useState([]);
-
-  let data=localStorage.getItem("carbanvalue");
-
 
   const handelPage = (val) => {
     let v = val / 8;
@@ -64,8 +62,7 @@ const QuestionsMain = () => {
           handelReset={handelReset}
         />
       ) : (
-         //strategy componenet should be here
-       <p>{data}</p>
+      <StrategySlideParent/>
       )}
     </>
   );
