@@ -16,6 +16,7 @@ import CarbonFootCalculator2 from './components/CarbonFootCalculator2';
 import CountrySelect from './components/CountrySelect';
 import Location from './components/Location';
 import QuestionsMain from './components/Questions/QuestionsMain';
+import StrategySlideParent from './components/PriceStrategy/StrategySlideParent';
 import Homepage from './components/Homepage';
 import { BrowserRouter as Router, Switch,Route } from "react-router-dom";
 
@@ -80,6 +81,9 @@ function App() {
           </Route>
           <Route exact path="/QuestionsMain">
             <QuestionsMain/>
+          </Route>
+          <Route exact path="/StrategySlideParent">
+            <StrategySlideParent/>
           </Route>
         </Switch>
       </Router>
