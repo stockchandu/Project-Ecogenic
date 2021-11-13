@@ -15,7 +15,7 @@
 
 #skip-arrow>div:nth-child(2)>a{
     text-decoration: none;
-    color:#6C757D;
+    color: #0E161F;
 }
 
 #skip-arrow>div:nth-child(1)>img{
@@ -23,10 +23,10 @@
 }
 
 .text-center{
-    font-family: "Open Sans";
-    font-size: 18px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 22px;
     font-style: normal;
-    font-weight: 600;
+    font-weight:bold;
     letter-spacing: 0.15px;
     margin-bottom: 15%;
     color: #212529;
@@ -82,6 +82,8 @@
 .checkbox>div:nth-child(2)>span{
     color: #149F65;
     font-weight: 500;
+    font-family: 'Rubik', sans-serif;
+    text-decoration: underline;
  }
 
 .btn-register {
@@ -89,7 +91,7 @@
     height: 7vh;
     margin: 1% auto;
     border:0;
-    font-size: 15px;
+    font-size: 16px;
     @include font-style;
     @include display-tems;
 }
@@ -135,7 +137,7 @@
     width: 90vw;
     height: 7vh;
     margin: 5% auto;
-    border-radius: 4px;
+    border-radius: 10px;
     color: #999999;
     border: 1px solid #CED4DA;
     @include font-style;

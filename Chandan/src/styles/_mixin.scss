@@ -4,7 +4,7 @@
 }
 
 @mixin font-family{
-    font-family: "Rubik";
+    font-family: 'Rubik', sans-serif;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -13,7 +13,7 @@
 
 @mixin font-style{
     font-family:"Rubik";
-    font-size: 13px;
+    font-size: 12px;
     font-style: normal;
     font-weight: 400;
     line-height: 16px;
@@ -32,11 +32,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 4px;
+    border-radius: 10px;
 }
 
 @mixin common-timer-font{
-    font-family: "Rubik";
+    font-family: 'Rubik', sans-serif;
     font-style: normal;
     font-weight: 550;
     font-size: 14px;

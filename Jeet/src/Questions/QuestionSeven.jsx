@@ -10,6 +10,7 @@ const QuestionSeven = ({ handelPage , co2}) => {
     //setEmi((emi+0.2))
   };
 
+
   const handleMinus = () => {
     //setEmi(emi-0.2)
     setNum(num - 1);
@@ -60,8 +61,8 @@ const QuestionSeven = ({ handelPage , co2}) => {
         {num > 0 ? (
           <div>
             <div
-              style={{ backgroundColor: "#149F65" }}
-              id="next"
+              
+              id="next1"
               onClick={() => {
                 console.log(num);
                 handelPage(num);
@@ -69,7 +70,7 @@ const QuestionSeven = ({ handelPage , co2}) => {
             >
               Next
             </div>
-            <div id="skip" onClick={handleSkip}>
+            <div id="skip1" onClick={handleSkip}>
               Clear
             </div>
           </div>

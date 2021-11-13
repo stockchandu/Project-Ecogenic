@@ -73,16 +73,16 @@ export const QuestionEight = ({ handelPage, co2 }) => {
           Clear
         </button>
         <button
-          className="next"
+          className="next_3"
           onClick={() => {
             console.log(platformValue);
             handelPage(
               platformValue == "Yes"
-                ? 1.5
+                ? 2
                 : platformValue == "Not yet"
-                ? 2.7
+                ? 3
                 : platformValue == "Not sure"
-                ? 4.1
+                ? 5
                 : 0
             );
           }}

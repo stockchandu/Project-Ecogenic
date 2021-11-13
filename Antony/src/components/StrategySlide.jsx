@@ -6,6 +6,7 @@ import foodImage from "./img/food.png";
 import "./SliderCss.css";
 import { CloseButton } from "./styledComponents/CloseButtonInCalculation";
 import styled from "styled-components";
+import { useEffect } from "react/cjs/react.development";
 
 const HeadingStrategyDiv = styled.div`
   text-align: center;
@@ -58,11 +59,11 @@ const AddButton = styled.div`
   position: absolute;
   width: 93px;
   height: 43px;
-  left: 231px;
+  left: 205px;
   top: 70px;
   font-family: "Segoe UI", sans-serif;
   font-style: normal;
-  font-weight: bold;
+  font-weight: bold !important;
   font-size: 18px;
   line-height: 24px;
   /* identical to box height */
@@ -73,8 +74,45 @@ const AddButton = styled.div`
   color: #ffffff;
 `;
 
+const HundredShow = styled.div`
+  /* margin-top: 0px; */
+  background-color: #1da1f2;
+  color: white;
+  position: absolute;
+  width: 48px;
+  height: 25px;
+  border-radius: 14px;
+  left: 255px;
+  top: 105px;
+
+  font-weight: bold;
+  font-size: 13.8613px;
+  line-height: 18px;
+
+  text-align: center;
+  letter-spacing: -0.225685px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: #ffffff;
+`;
+const SliderWrapDiv = styled.div`
+  width: 87%;
+  margin: auto;
+  /* background-color: #dbc9c9; */
+`;
+const DynamicBorder = styled.div`
+  position: absolute;
+  top: 30px;
+  left: 32px;
+  width: 296px;
+  height: 386px;
+  border: 10px solid #25ce7b;
+  border-radius: 46px;
+`;
 const Label = styled.div`
-  margin-top: -285px;
+  margin-top: -245px;
   font-family: "Segoe UI", sans-serif;
   font-style: normal;
 
@@ -88,7 +126,7 @@ const Label = styled.div`
   color: #ffffff;
 `;
 const LearnMore = styled.div`
-  margin-top: 50px;
+  margin-top: 40px;
   font-family: "Segoe UI", sans-serif;
   font-style: normal;
 
@@ -101,9 +139,35 @@ const LearnMore = styled.div`
   color: #ffffff;
 `;
 const Spacer = styled.div`
-  height: 170px;
+  height: 135px;
+`;
+const AllCategories = styled.button`
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 32px;
+  /* width: 235px; */
+  border: none;
+  height: 64px;
+  margin: auto;
+  background: #2c7fff;
+  border-radius: 8px;
+  margin-top: -20px;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: 0.1040752px;
+
+  color: #ffffff;
 `;
 export function StrategySlider(props) {
+  //console.log(props.strategySelection, "inside slider object.......");
+  //   useEffect(() => {
+  //     console.log("useeffect working");
+  //   }, [props.strategySelection]);
   return (
     <>
       <CloseButton color="black"></CloseButton>
@@ -112,27 +176,113 @@ export function StrategySlider(props) {
         How do you want to neutralize your {props.carbonFootprint} ton carbon
         footprint?
       </Para>
-      <Carousel>
-        <div>
-          <AddButton>+ Add</AddButton>
-          <img src={mobilityImage} alt="" />
+      <SliderWrapDiv>
+        {" "}
+        <Carousel>
+          <div>
+            <AddButton
+              onClick={() => {
+                props.handleStrategySelection("mobility");
+              }}
+            >
+              {" "}
+              {props.strategySelection.mobility ? "👍 Added" : "+ Add"}
+            </AddButton>
+            <HundredShow
+              style={{
+                display: props.strategySelection.mobility ? "flex" : "none",
+              }}
+            >
+              100%
+            </HundredShow>
+            <DynamicBorder
+              style={{
+                display: props.strategySelection.mobility ? "block" : "none",
+              }}
+              onClick={() => {
+                props.handleStrategySelection("mobility");
+              }}
+            ></DynamicBorder>
+            <img src={mobilityImage} alt="" />
 
-          <Label>Mobility</Label>
+            <Label>Mobility</Label>
+            <LearnMore>Learn More ►</LearnMore>
+          </div>
+          <div>
+            <AddButton
+              onClick={() => {
+                props.handleStrategySelection("shelter");
+              }}
+            >
+              {" "}
+              {props.strategySelection.shelter ? "👍 Added" : "+ Add"}
+            </AddButton>
+            <HundredShow
+              style={{
+                display: props.strategySelection.shelter ? "flex" : "none",
+              }}
+            >
+              100%
+            </HundredShow>
+            <DynamicBorder
+              style={{
+                display: props.strategySelection.shelter ? "block" : "none",
+              }}
+              onClick={() => {
+                props.handleStrategySelection("shelter");
+              }}
+            ></DynamicBorder>
 
-          <LearnMore>Learn More ►</LearnMore>
-        </div>
-        <div>
-          <img src={shelterimage} alt="" />
-          <Label>Shelter</Label>
-          <LearnMore>Learn More ►</LearnMore>
-        </div>
-        <div>
-          <img src={foodImage} alt="" />
-          <Label>Food</Label>
-          <LearnMore>Learn More ►</LearnMore>
-          <Spacer></Spacer>
-        </div>
-      </Carousel>
+            <img src={shelterimage} alt="" />
+            <Label>Shelter</Label>
+            <LearnMore>Learn More ►</LearnMore>
+          </div>
+          <div>
+            <AddButton
+              onClick={() => {
+                props.handleStrategySelection("food");
+              }}
+            >
+              {props.strategySelection.food ? "👍  Added" : "+ Add"}
+            </AddButton>
+            <HundredShow
+              style={{
+                display: props.strategySelection.food ? "flex" : "none",
+              }}
+            >
+              100%
+            </HundredShow>
+            <DynamicBorder
+              style={{
+                display: props.strategySelection.food ? "block" : "none",
+              }}
+              onClick={() => {
+                props.handleStrategySelection("food");
+              }}
+            ></DynamicBorder>
+            <img src={foodImage} alt="" />
+            <Label>Food</Label>
+            <LearnMore>Learn More ►</LearnMore>
+            <Spacer></Spacer>
+          </div>
+        </Carousel>
+      </SliderWrapDiv>
+
+      <AllCategories
+        onClick={() => {
+          props.strategySelection.mobility ||
+          props.strategySelection.shelter ||
+          props.strategySelection.food
+            ? props.handleStrategySelection("save")
+            : props.handleStrategySelection("all");
+        }}
+      >
+        {props.strategySelection.mobility ||
+        props.strategySelection.shelter ||
+        props.strategySelection.food
+          ? "Save Strategy"
+          : "Select all categories"}
+      </AllCategories>
     </>
   );
 }

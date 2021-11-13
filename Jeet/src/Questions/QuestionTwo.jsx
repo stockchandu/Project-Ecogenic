@@ -26,42 +26,43 @@ export const QuestionTwo = ({ handelPage, co2 }) => {
         <div className="chatBox2">
           Those are roundtrips over three hours each way
         </div>
-        <div className="botton"></div>
-        <p className="qNumber">2 / 8 QUESTION</p>
-        <div className="bar">
-          <span className="dot" style={{ width: "24%" }}></span>
+        <div className="botton">
+          <p className="qNumber">2 / 8 QUESTION</p>
+          <div className="bar">
+            <span className="dot" style={{ width: "24%" }}></span>
+          </div>
+          <p className="question">Number of Roundtrips</p>
+          <div className="rangeSlider">
+            <Wrapper>
+              <Range
+                type="range"
+                value={val}
+                onChange={handelRangeChange}
+                min={1}
+                max={10}
+                step={1}
+              />
+            </Wrapper>
+          </div>
+          <button
+            className="clear1"
+            onClick={() => {
+              setVal(1);
+              console.log(val);
+            }}
+          >
+            Clear
+          </button>
+          <button
+            className="next"
+            onClick={() => {
+              console.log(val);
+              handelPage(val);
+            }}
+          >
+            Next
+          </button>
         </div>
-        <p className="question">Number of Roundtrips</p>
-        <div className="rangeSlider">
-          <Wrapper>
-            <Range
-              type="range"
-              value={val}
-              onChange={handelRangeChange}
-              min={1}
-              max={10}
-              step={1}
-            />
-          </Wrapper>
-        </div>
-        <button
-          className="clear"
-          onClick={() => {
-            setVal(1);
-            console.log(val);
-          }}
-        >
-          Clear
-        </button>
-        <button
-          className="next"
-          onClick={() => {
-            console.log(val);
-            handelPage(val);
-          }}
-        >
-          Next
-        </button>
       </div>
     </>
   );
