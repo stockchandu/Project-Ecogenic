@@ -15,7 +15,7 @@ import YourFootprint from './YourFootprint'
 function Homepage() {
   return (
     <>
-      <Navbar />
+      <Navbar/>
       <DailyChallenges />
       <CarbonFootCal />
       <ScanProduct />

@@ -42,7 +42,7 @@ export const QuestionFive = ({ handelPage, co2 }) => {
         <div className="bar_3">
           <span className="dot_3" style={{ width: "60%" }}></span>
         </div>
-        <p className="question_3">Select Your Diet Type</p>
+        {/* <p className="question_3">Select Your Diet Type</p> */}
 
         <div className="ckeck">
           <form>

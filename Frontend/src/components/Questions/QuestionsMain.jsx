@@ -12,7 +12,7 @@ import StrategySlideParent from "../PriceStrategy/StrategySlideParent";
 
 const QuestionsMain = () => {
   const [page, setPage] = useState(1);
-  let [co2, setCo2] = useState(1.75);
+  let [co2, setCo2] = useState(0.00);
   const [fsdhm, setfsdhm] = useState([]);
 
   const handelPage = (val) => {

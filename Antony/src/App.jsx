@@ -83,3 +83,8 @@ function App() {
 }
 
 export default App;
+{page === 1 ? (
+ 
+) : (
+ 
+)}

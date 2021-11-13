@@ -409,6 +409,8 @@
     background-image: url("https://imagesdataporter.s3.ap-south-1.amazonaws.com/Eco-Resource/pooja/Images/Nav-bar-all.png");
     margin-left: -17px;
     position: absolute;
-    margin-top: 15px;
+    margin-top: 129px;
+    z-index: 100;
+    position: fixed;
   }
   

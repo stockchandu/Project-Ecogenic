@@ -45,7 +45,7 @@ function SignupFlow3() {
         let dbotp = Number(otp);
         if (newotp === dbotp) {
           setTimeout(() => {
-            history.push("/Homepage");
+            history.push("/TopicInterestParent");
           }, 7000);
         } else {
           setTimeout(() => {
