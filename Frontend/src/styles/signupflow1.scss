@@ -1,0 +1,164 @@
+@import "mixin";
+
+#skip-arrow{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    @include font-family;
+}
+
+#skip-arrow>div{
+    margin: 5%;
+    color: #6C757D;
+}
+
+#skip-arrow>div:nth-child(2)>a{
+    text-decoration: none;
+    color: #0E161F;
+}
+
+#skip-arrow>div:nth-child(1)>img{
+    width: 6%;
+}
+
+.text-center{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight:bold;
+    letter-spacing: 0.15px;
+    margin-bottom: 15%;
+    color: #212529;
+    text-align: center;
+}
+
+#signup-form{
+    width: 100vw;
+}
+
+#signup-form>div{
+    width: 90vw;
+    height: 8vh;
+    border: 2px solid #CED4DA;
+    margin:3% auto;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+#signup-form>div>input{
+    width: 85vw;
+    height: 6vh;
+    margin:2% 0 0 2%;
+    border: 0;
+    outline: none;
+    @include font-family;
+}
+
+.checkbox{
+    width: 100vw;
+    display: flex;
+}
+
+.checkbox>div:nth-child(1){
+    margin-left: 5%;
+}
+
+.checkbox>div:nth-child(1)>input{
+   width: 5vw;
+   height: 5vh;
+}
+
+.checkbox>div:nth-child(2){
+    font-size: 12px;
+    margin-left: 2%;
+    margin-top: 4%;
+    color: #6C757D;
+    letter-spacing: 0.4px;
+    line-height: 19px;
+    text-align: left;
+    @include font-style;
+}
+
+.checkbox>div:nth-child(2)>span{
+    color: #149F65;
+    font-weight: 500;
+    font-family: 'Rubik', sans-serif;
+    text-decoration: underline;
+ }
+
+.btn-register {
+    width: 90vw;
+    height: 7vh;
+    margin: 1% auto;
+    border:0;
+    font-size: 16px;
+    @include font-style;
+    @include display-tems;
+}
+
+.hr-line{
+    width: 90vw;
+    margin: 10% auto;
+    display: flex;
+}
+
+.hr-line>div:nth-child(1){
+    width: 40vw;
+    border-top: 1px solid grey;
+}
+
+.hr-line>div:nth-child(2){
+    margin-top: -3%;
+    margin-left:10px;
+    margin-right: 10px;
+    color: grey;
+}
+
+.hr-line>div:nth-child(3){
+    width: 45vw;
+    border-top: 1px solid grey;
+}
+
+
+#signup-third{
+    width: 100vw;
+}
+
+#signup-third>div:nth-child(1){
+    width: 90vw;
+    background-color: #4267B2;
+    height: 7vh;
+    margin: auto;
+    color: white;
+    @include font-style;
+    @include display-tems;
+}
+#signup-third>div:nth-child(2){
+    width: 90vw;
+    height: 7vh;
+    margin: 5% auto;
+    border-radius: 10px;
+    color: #999999;
+    border: 1px solid #CED4DA;
+    @include font-style;
+    @include display-tems;
+}
+
+#signup-third>div>span{
+    margin-right: 2%;
+}
+
+#have-account{
+    text-align: center;
+    margin-top: 33%;
+    font-family: Open Sans;
+    color:#6C757D;
+    @include  have-account;
+
+}
+
+#have-account>span{
+    font-family: Roboto;
+    color: black;
+    @include  have-account;
+}

@@ -1,0 +1,85 @@
+.tons-co {
+  width: 414px;
+  height: 896px;
+  background-image: url("https://imagesdataporter.s3.ap-south-1.amazonaws.com/Eco-Resource/pooja/Images/Rectangle+158.png");
+  background-repeat: no-repeat;
+  position: absolute;
+}
+
+
+.calorie-carbonSecond-page {
+  width: 90px;
+  height: 69px;
+  margin: auto;
+}
+
+.calorie-carbonSecond-page > p {
+  font-size: 53.2836px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+  margin-top: 130px;
+  margin-left: -9px;
+}
+
+.calorie-carbonSecondCo2-page {
+  width: 121px;
+  height: 34px;
+  margin: auto;
+}
+.calorie-carbonSecondCo2-page > p {
+  font-size: 24.36px;
+  font-family: "DM Sans", sans-serif;
+  color: #ffffff;
+  margin: 1.4px;
+  letter-spacing: -0.487164px;
+  text-align: center;
+}
+.arrow-up {
+  width: 38px;
+  height: 83px;
+  background-image: url("https://imagesdataporter.s3.ap-south-1.amazonaws.com/Eco-Resource/pooja/Images/Vector+1437+(1).png");
+  background-repeat: no-repeat;
+  margin-top: -36px;
+  margin-left: 99px;
+}
+.written-text-co2 {
+  width: 360px;
+  height: 80px;
+  background-image: url("https://imagesdataporter.s3.ap-south-1.amazonaws.com/Eco-Resource/pooja/Images/Frame+1806.png");
+  background-repeat: no-repeat;
+  margin-top: 150px;
+  margin-left: 16px;
+}
+.written-text1-co2 {
+  width: 360px;
+  height: 80px;
+  background: url("https://imagesdataporter.s3.ap-south-1.amazonaws.com/Eco-Resource/pooja/Images/Frame+1805.png");
+  background-repeat: no-repeat;
+  margin-top: 15px;
+  margin-left: 16px;
+}
+
+.written-text3-co2 {
+  width: 320px;
+  height: 106px;
+  background: url("https://imagesdataporter.s3.ap-south-1.amazonaws.com/Eco-Resource/pooja/Images/Frame+1807.png");
+  margin-top: 14px;
+  margin-left: 16px;
+}
+.go-to-next {
+  width: 126px;
+  height: 65px;
+  background: #149f65;
+  border-radius: 58px;
+  text-align: center;
+  margin: auto;
+  margin-top: 50px;
+  outline: none;
+  border: none;
+  letter-spacing: -0.32px;
+  font-size: 24px;
+  color: #ffffff;
+  font-family: "DM Sans", sans-serif;
+  margin-left: 140px;
+}

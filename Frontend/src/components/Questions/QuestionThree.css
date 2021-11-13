@@ -1,0 +1,208 @@
+.continer {
+  position: absolute;
+  width: 414px;
+  /* height: 736px; */
+  left: 0px;
+  top: 0px;
+}
+.img {
+  width: 100%;
+  height: 100%;
+}
+.arrow {
+  position: absolute;
+  left: 4.11%;
+  right: 87.44%;
+  top: 6.36%;
+  bottom: 89.73%;
+}
+.carbonCount {
+  position: absolute;
+  left: 39.13%;
+  right: 39.13%;
+  top: 12.39%;
+  bottom: 79.91%;
+
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 53.2836px;
+  line-height: 69px;
+
+  color: #ffffff;
+}
+.Unit {
+  position: absolute;
+  /* left: 35.75%; */
+  right: 35.57%;
+  top: 20.2%;
+  bottom: 76.23%;
+
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24.3582px;
+  line-height: 32px;
+  /* identical to box height */
+
+  letter-spacing: -0.487164px;
+
+  color: #ffffff;
+}
+.chatBox2_3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 17px;
+
+  position: absolute;
+  left: 1.11%;
+  right: 20.77%;
+  top: 35.16%;
+  bottom: 56.03%;
+
+  background: #ffffff;
+  border-radius: 14px 14px 14px 0px;
+
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 27px;
+
+  color: #060608;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 12px;
+}
+.botton_3 {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 49.78%;
+  bottom: -0.11%;
+
+  background: #ffffff;
+  box-shadow: 0px -5px 15px rgba(0, 0, 0, 0.05);
+  border-radius: 12px 12px 0px 0px;
+}
+.qNumber_3 {
+  position: absolute;
+  left: 9%;
+  right: 49.07%;
+  top: 53%;
+  bottom: 0%;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: -0.32px;
+  color: #000000;
+  opacity: 0.5;
+}
+.bar_3 {
+  position: absolute;
+  left: 38.54%;
+  right: 0%;
+  top: 54%;
+  bottom: 23.81%;
+  width: 17%;
+  height: 1%;
+  background: #e3e3e3;
+  border-radius: 12 px;
+}
+.dot_3 {
+  position: absolute;
+  left: -0.46%;
+  right: 39.84%;
+  top: 2.86%;
+  bottom: 23.81%;
+
+  height: 100%;
+  background: #149f65;
+  border-radius: 12px;
+}
+.question_3 {
+  position: absolute;
+  left: 8.25%;
+  right: 42.27%;
+  top: 58.52%;
+  bottom: 31.14%;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 21px;
+  letter-spacing: -0.32px;
+  color: #000000;
+}
+.ckeck {
+  width: 50%;
+  position: absolute;
+  left: 10.94%;
+  right: 65.94%;
+  top: 62.41%;
+  bottom: 30.25%;
+  line-height: 28px;
+}
+.clear_3 {
+  position: absolute;
+  position: absolute;
+  left: 24.64%;
+  right: 63.04%;
+  top: 85.05%;
+  bottom: 11.05%;
+
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+  /* identical to box height */
+
+  letter-spacing: -0.32px;
+
+  /* Gray - 900 */
+
+  color: #212529;
+  height: 50px;
+  border: none;
+}
+
+.next_3 {
+  position: absolute;
+  left: 45.17%;
+  right: 24.4%;
+  top: 84.15%;
+  /* bottom: 8.59%; */
+
+  background: #149f65;
+  border-radius: 58px;
+  border: none;
+  width: 126px;
+  height: 65px;
+
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 21px;
+  /* identical to box height, or 105% */
+
+  letter-spacing: -0.32px;
+
+  color: #ffffff;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 10px;
+}

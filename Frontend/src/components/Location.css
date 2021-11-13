@@ -1,0 +1,65 @@
+.country-select-container {
+  width: 414px;
+  height: 896px;
+  border: 1px solid black;
+  background-image: url("https://imagesdataporter.s3.ap-south-1.amazonaws.com/Eco-Resource/pooja/Images/Group+2052.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.middle-element {
+  width: 80px;
+  height: 80px;
+  margin: auto;
+  background-image: url("https://imagesdataporter.s3.ap-south-1.amazonaws.com/Eco-Resource/pooja/Images/Frame+1804.png");
+  margin-top: 405px;
+}
+
+.residence {
+  width: 281px;
+  height: 84px;
+  margin: auto;
+}
+
+.resi-country {
+  font-family: "DM Sans", sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  text-align: center;
+  color: #000000;
+  line-height: 150%;
+  margin-top: 30px;
+}
+
+.select-country-of-resi {
+  width: 355px;
+  height: 42px;
+  margin: auto;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.select-country-of-resi > span {
+  font-size: 14px;
+  letter-spacing: -0.32px;
+  font-family: Segoe UI;
+  color: #000000;
+  opacity: 0.7;
+}
+
+.confirm-btn-country {
+  width: 381px;
+  height: 66px;
+  margin: auto;
+  border-radius: 14px;
+  font-size: 20px;
+  text-align: center;
+  font-family: "DM Sans", sans-serif;
+  background-color: #149f65;
+  margin-top: 132px;
+  color: #ffffff;
+  margin-left: 14px;
+  outline: none;
+  cursor: pointer;
+  border: none;
+}

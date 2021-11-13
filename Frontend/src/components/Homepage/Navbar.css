@@ -1,0 +1,23 @@
+.nav-right {
+  border: 1.5px solid #149f65;
+  color: #149f65;
+  width: 30px;
+  text-align: center;
+  padding: 1.5px;
+  height: 35px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.welcome {
+  margin: 0px;
+}
+.nav {
+  width: 414px;
+  height: 97px;
+  padding: 15px 15px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  background: #f5f5f5;
+}

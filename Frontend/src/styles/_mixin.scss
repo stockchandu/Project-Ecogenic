@@ -1,0 +1,59 @@
+@mixin common-font{
+    font-weight: 600;
+    text-align: center;  
+}
+
+@mixin font-family{
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 1.25px;
+}
+
+@mixin font-style{
+    font-family:"Rubik";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 1.25px;
+}
+
+@mixin have-account{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+}
+
+@mixin display-tems{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+@mixin common-timer-font{
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+@mixin common-header-payment-style{
+    background-color: #149F64;
+    display: flex;
+    height:10vh;
+    align-items: flex-end;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 21px;
+    letter-spacing: -0.32px;
+    color: #FFFFFF;
+    padding-bottom: 5%;
+}

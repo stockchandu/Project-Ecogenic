@@ -1,0 +1,132 @@
+@import "mixin";
+$font-color:#212529;
+#otp-sec-0{
+    width: 5%;
+    margin: 10%;
+    margin-left: 3%;
+}
+
+#otp-sec-1{
+    text-align: center;
+}
+
+#otp-sec-1>div{
+    margin-bottom: 10%;
+}
+
+#otp-sec-1>div:nth-child(1){
+    @include common-font;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 24px;   
+    letter-spacing: 0.15px; 
+    color: font-color;
+}
+
+#otp-sec-1>div:nth-child(2){
+    width: 85vw;
+    margin:0 auto 9% auto;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+#otp-input-box{
+    width: 100vw;
+    display: flex;
+}
+
+#otp-input-box>div{
+    width: 80vw;
+    margin: auto;
+}
+#otp-input-box>div>input{
+    width: 15vw;
+    height: 8vh;
+    background-color: #F6F5FA;
+    border: 0;
+    outline: none;
+    margin-left: 5%;
+    border-radius: 5px;
+    font-size: 30px;
+    @include common-font;
+}
+
+#btn-login{
+    width: 100vw;
+}
+
+#btn-login>div{
+    width: 90vw;
+    margin: auto;
+}
+
+#btn-login>div>button{
+    width: 90vw;
+    border: 0;
+    border-radius: 5px;
+    height: 8vh;
+    margin-top: 4%;
+}
+
+#btn-login>div>button{
+    background-color: #149F65;
+    margin-top: 10%;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    font-size: 14px;
+    font-family: 'Rubik', sans-serif;
+}
+
+#btn-resend{
+    width: 100vw;
+}
+
+#btn-resend>div{
+    width: 90vw;
+    margin: auto;
+}
+
+#btn-resend>div:nth-child(1)>button{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: 1px solid #6C757D;;
+    font-weight: normal;
+    font-size: 12px;
+    width: 90vw;
+    border-radius: 5px;
+    height: 55px;
+    margin-top: 4%;
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+    font-family: 'Rubik', sans-serif;
+}
+
+#btn-resend>div:nth-child(2){
+    margin-top: 60%;
+    color: #6C757D;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+}
+
+#btn-resend>div:nth-child(2)>span{
+    color: #000000;
+} 
+
+#invalid-otp{
+    text-align: center;
+    margin-bottom: 1%;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+}

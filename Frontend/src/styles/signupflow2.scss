@@ -1,0 +1,82 @@
+@import "mixin";
+
+#arrow{
+    width: 5%;
+    margin: 10%;
+    margin-left: 4%;
+}
+
+#text-confirm{
+    text-align: center;
+    width: 80vw;
+    margin:20% auto 5% auto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 21px;
+    letter-spacing: 0.25px;
+    color: #212529;
+    font-family: 'Rubik', sans-serif;
+}
+
+#btn-email{
+    width: 90vw;
+    margin: 10% auto 5% auto;
+}
+
+#enter-otp-manually{
+    text-align: center;
+    font-weight: 500;
+    color: brown;
+}
+#btn-email>button{
+    width: 100%;
+    height: 6vh;
+    border: 1px solid #6C757D;
+    border-radius: 8px;
+    background-color: white;
+    color: #343A40;
+    font-weight: 600;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+}
+
+#timer-manually{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+#timer-manually>div:nth-child(1){
+    margin-left: 5%;
+    color: #495057;
+    @include common-timer-font;
+}
+
+#timer-manually>div:nth-child(2){
+    margin-right: 5%;
+}
+
+#timer-manually>div:nth-child(2)>a{
+    text-decoration: none;
+    color: #495057;
+    @include common-timer-font;
+}
+
+#trouble{
+    width: 100vw;
+    text-align: center;
+    align-items: flex-end;
+    margin-top: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+#trouble>span{
+    color: black;
+    font-weight: 600;
+}

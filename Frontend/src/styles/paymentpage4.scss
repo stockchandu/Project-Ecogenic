@@ -1,0 +1,132 @@
+@import "mixin";
+
+#parent-card-1{
+    width: 100vw;
+}
+
+#parent-card-1>div:nth-child(1){
+   @include common-header-payment-style
+}
+
+#parent-card-1>div:nth-child(1)>div:nth-child(1){
+    margin: 0 3% 0 3%;
+}
+
+#parent-card-1>div:nth-child(2){
+    width:95%;
+    display: flex;
+    margin-top: 10%;
+    margin-left: 3%;
+}
+
+// input::-webkit-outer-spin-button,
+// input::-webkit-inner-spin-button {
+//   -webkit-appearance: none;
+//   margin: 0;
+// }
+
+// input[type=number] {
+//     -moz-appearance: textfield;
+// }
+
+#parent-card-1>div:nth-child(2)>div:nth-child(1){
+   margin-right: 5%;
+   width: 20vw;
+   margin-left: 3%;
+}
+
+#parent-card-1>div:nth-child(3){
+    width: 100%;
+    margin-top: 15%;
+    display: flex;
+    justify-content: center;
+}
+
+#parent-card-1>div:nth-child(3)>button{
+    width: 90%;
+    height: 7vh;
+    margin:auto;
+    border: 0;
+    border-radius: 8px;
+    background-color: #149F64;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#parent-card-1>div:nth-child(4){
+    margin:2% 0 0 4%;
+}
+
+#input-parent>div{
+    width: 90vw;
+    margin-left: 9%;
+}
+
+#input-parent>div:nth-child(1){
+    color: #149F64;
+    font-size: 15px;
+}
+
+#input-parent>div:nth-child(3){
+    color:#149F64 ;
+    font-size: 15px;
+}
+
+#input-parent>div:nth-child(2){
+    display: flex;
+}
+
+.master-card{
+    width: 10%;
+    height: 25px;
+    margin-left: -9%;
+}
+
+#input-parent>div:nth-child(2)>input{
+    width: 95%;
+    height: 5vh;
+    outline: none;
+    border: 0;
+    border-bottom: 1px solid grey;
+    margin-bottom: 8%;
+}
+
+#input-parent>div:nth-child(4)>input{
+    width: 95%;
+    height: 5vh;
+    outline: none;
+    border: 0;
+    border-bottom: 1px solid grey;
+    margin-bottom: 5%;
+}
+
+#input-parent>div:nth-child(5){
+    display: flex;
+}
+
+#cvv-mmyy>div:nth-child(1)>div:nth-child(2)>input{
+    width: 15vw;
+    height: 5vh;
+    outline: none;
+    border: 0;
+    border-bottom: 1px solid grey;
+}
+
+#cvv-mmyy>div:nth-child(2){
+    margin-left: 7%;
+}
+
+#cvv-mmyy>div:nth-child(2)>div:nth-child(1),#cvv-mmyy>div:nth-child(1)>div:nth-child(1){
+    height: 3vh;
+    color:#149F64;
+    font-size: 15px;
+}
+
+#cvv-mmyy>div:nth-child(2)>div:nth-child(2)>input{
+    width: 11vw;
+    height: 5vh;
+    outline: none;
+    border: 0;
+    border-bottom: 1px solid grey;
+}

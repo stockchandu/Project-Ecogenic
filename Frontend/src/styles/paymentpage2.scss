@@ -1,0 +1,117 @@
+#payment-parent-2{
+    width: 100vw;
+    height: auto;
+}
+
+// image style
+#payment-parent-2>div:nth-child(1){
+    width: 100%;
+    height: 30vh;
+    background-image: url(https://imagesdataporter.s3.ap-south-1.amazonaws.com/greennature.png);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#payment-parent-2>div:nth-child(2){
+    width: 100%;
+    height: 75vh;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+    margin-top: -5%;
+}
+
+//2nd div nth child 1 offset 
+#payment-parent-2>div:nth-child(2)>div:nth-child(1){
+    width: 100%;
+    height: 5vh;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 23px;
+    padding-top: 5%;
+    padding-bottom:16% ;
+    font-weight: 700;
+}
+
+#annual-offset{
+    width: 95vw;
+}
+
+#annual-offset>div{
+    display: flex;
+    justify-content: space-around;
+}
+
+#make-payment{
+    width: 95vw;
+    // display: flex;
+    // justify-content: center;
+    margin-top: 10%;
+}
+
+#make-payment>a>button{
+    width: 100%;
+    border: 1px solid #149F65;
+    border-radius: 10px;
+    height: 68px;
+    background-color: white;
+    letter-spacing: -0.32px;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #149F65;
+    margin-left: 3%;
+}
+
+#offset>div:nth-child(1){
+    font-family: 'DM Sans', sans-serif;;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: -0.32px;
+    color: #343A40;
+
+}
+
+#offset>div:nth-child(2){
+    font-family: 'DM Sans', sans-serif;;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: -0.32px;
+    color: #6C757D
+
+}
+
+#month-charge{
+    margin-top: 5%;
+}
+
+#month-charge>div:nth-child(1){
+    font-family: 'DM Sans', sans-serif;;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: -0.32px;
+    color: #212529;
+}
+
+#month-charge>div:nth-child(2){
+    font-family: 'DM Sans', sans-serif;;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 1px;
+    color: #3277D8
+}
+

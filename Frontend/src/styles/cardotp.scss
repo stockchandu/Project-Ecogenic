@@ -1,0 +1,32 @@
+#main-otp-parent{
+    width: 80vw;
+    height: 35vh;
+    border: 1px solid black;
+    margin: 20% auto 0 auto;
+    padding: 10%;
+}
+
+#btn-submit>button{
+    margin:10%;
+    background-color: #2E53A0;
+    color: white;
+}
+
+#input-otp{
+    margin-top: 2%;
+}
+
+#verified-visa>img{
+    width: 30%;
+}
+
+
+#input-otp>input{
+    margin-top: 2%;
+    width: 30%;
+    border: 1px solid rgba(4, 55, 224, 0.308);
+}
+
+#input-otp>label{
+    margin-left: 20%;
+}

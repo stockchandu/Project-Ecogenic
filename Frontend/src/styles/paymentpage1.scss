@@ -1,0 +1,95 @@
+#payment-parent-1{
+    width: 100vw;
+    height: auto;
+}
+
+// image style
+#payment-parent-1>div:nth-child(1){
+    width: 100%;
+    height: 30vh;
+    background-image: url(https://imagesdataporter.s3.ap-south-1.amazonaws.com/greennature.png);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#payment-parent-1>div:nth-child(2){
+    width: 100%;
+    height: 75vh;
+    background-color: white;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+    margin-top: -5%;
+}
+
+//2nd div nth child 1 offset 
+#payment-parent-1>div:nth-child(2)>div:nth-child(1){
+    width: 100%;
+    height: 5vh;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 23px;
+    padding-top: 5%;
+    padding-bottom:16% ;
+    font-weight: 700;
+}
+
+#payment-parent-1>div:nth-child(2)>div:nth-child(2){
+    width: 85vw;
+    height: 15vh;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin: 2% auto 0 auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(95, 94, 94, 0.2), 0 6px 20px 0 rgba(80, 78, 78, 0.19);
+
+}
+
+#payment-parent-1>div:nth-child(2)>div:nth-child(2)>div>h1{
+   font-weight: 700;
+
+}
+
+#payment-parent-1>div:nth-child(2)>div:nth-child(3){
+    width: 90vw;
+    // background-color: grey;
+    margin: 5% auto 0 auto;
+}
+
+#payment-parent-1>div:nth-child(2)>div:nth-child(3)>a>button{
+    width: 85vw;
+    height: 7vh;
+    text-align: start;
+    background-color: #149F64;
+    border: 0;
+    border-radius: 7px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 5%;
+}
+
+
+#payment-parent-1>div:nth-child(2)>div:nth-child(3)>a>button>img{
+    width: 13%;
+    margin-left: 50%;
+}
+
+#payment-parent-1>div:nth-child(2)>div:nth-child(3)>p{
+    margin-top: 5%;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+
+
