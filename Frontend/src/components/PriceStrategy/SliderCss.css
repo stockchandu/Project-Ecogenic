@@ -1,17 +1,8 @@
 .control-dots .dot {
-  /* border: solid black 5px; */
-  /* display: inline-block;
-  margin: 0 8px;
-  opacity: 1; */
-  /* color: black;
-  background-color: black !important; */
-  /* box-shadow: 1px 1px 1px rgba(#000, 0.9);
-  background: #fff; */
+ 
 
   cursor: pointer;
-  /* border-radius: 0% !important; */
-  /* width: 1px !important;
-  height: 1px !important; */
+  
   background-color: black !important;
 }
 /* .control-dots {
@@ -37,8 +28,9 @@
   width: 6px !important;
   height: 6px !important;
   cursor: pointer;
-  display: inline-block;
+  display: inline-block !important;
   margin: 0 8px;
+  background-color: aqua;
 }
 .carousel .control-dots .dot.selected,
 .carousel .control-dots .dot:hover {
@@ -46,6 +38,7 @@
   filter: alpha(opacity=100);
   width: 11px !important;
   height: 11px !important;
+  background-color: aqua;
 }
 .carousel .carousel-status {
   position: absolute;
@@ -67,3 +60,9 @@
   position: relative;
   width: 100%;
 }
+
+#myCarousal > .dot {
+  position: relative !important;
+  }
+
+

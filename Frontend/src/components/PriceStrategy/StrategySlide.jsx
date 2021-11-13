@@ -101,6 +101,11 @@ const SliderWrapDiv = styled.div`
   width: 87%;
   margin: auto;
   /* background-color: #dbc9c9; */
+  & .carousel{
+    & .dot{
+    position:relative;
+  } 
+  }
 `;
 const DynamicBorder = styled.div`
   position: absolute;
@@ -168,6 +173,10 @@ export function StrategySlider(props) {
   //   useEffect(() => {
   //     console.log("useeffect working");
   //   }, [props.strategySelection]);
+
+
+
+
   return (
     <>
       <CloseButton color="black"></CloseButton>
@@ -178,7 +187,7 @@ export function StrategySlider(props) {
       </Para>
       <SliderWrapDiv>
         {" "}
-        <Carousel>
+        <Carousel id="myCarousal"  >
           <div>
             <AddButton
               onClick={() => {

@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { StrategySlider } from "./StrategySlide";
 import {GreatChoice} from "./GreatChoice"
 import PaymentPage1 from "../../components/PaymentPage1.jsx"
-
+import "./SliderCss.css";
 function StrategySlideParent() {
   const [page, setPage] = useState(1);
   const [strategySelection, setStrategySelection] = useState({
