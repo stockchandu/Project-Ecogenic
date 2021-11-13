@@ -2,9 +2,11 @@ import { useState, useEffect } from "react";
 
 import { PageOne } from "./components/PageOne";
 import { PageTwo } from "./components/PageTwo";
+
 import { AnnualCarbonFootprintShow } from "./components/AnnualCarbonFootprintShow";
 import { StrategySlider } from "./components/StrategySlide";
 import { GreatChoice } from "./components/GreatChoice";
+
 function App() {
   const [page, setPage] = useState(1);
   const [carbonFootprint, setCarbonFootprint] = useState(2.75);

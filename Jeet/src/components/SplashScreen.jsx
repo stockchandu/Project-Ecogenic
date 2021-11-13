@@ -1,7 +1,4 @@
-//import "./Splash_screen.css";
 import "./SplashScreen.css";
-//import imgOne from "../components/img/GroupOne.png";
-//import imgOneDots from "../components/img/GroupOneDots.png";
 import Arrow from "../components/img/GroupArrow.png";
 
 export const SplashScreen = (props) => {

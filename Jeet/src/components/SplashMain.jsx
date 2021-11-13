@@ -5,6 +5,7 @@ import { ScreenTwo } from "../components/ScreenTwo";
 import { ScreenThree } from "../components/ScreenThree";
 
 function SplashMain() {
+  
   const [page, setPage] = useState(1);
   useEffect(() => {}, [page]);
   const handelPage = () => {

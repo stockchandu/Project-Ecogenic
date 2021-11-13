@@ -4,8 +4,6 @@ import { Onboarding1 } from './components/Onboarding1';
 import { Onboarding2 } from './components/Onboarding2';
 import { Onboarding3 } from './components/Onboarding3';
 
-
-
 function App() {
   const [count, setCount] = useState(1)
 

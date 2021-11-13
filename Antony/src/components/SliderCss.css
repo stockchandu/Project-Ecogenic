@@ -14,8 +14,8 @@
   height: 1px !important; */
   background-color: black !important;
 }
-.control-dots {
-}
+/* .control-dots {
+} */
 
 .carousel .control-dots .dot.selected {
   opacity: 1;
