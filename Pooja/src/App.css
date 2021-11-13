@@ -138,6 +138,10 @@ button.scan-btn {
   padding: 10px;
   color: #212529;
   margin-bottom: -8px;
+  font-family: "Rubik", sans-serif;
+  font-size: 22px;
+  line-height: 20px;
+  font-weight: 500;
 }
 .ecohoy-subheading {
   font-family: "DM Sans", sans-serif;

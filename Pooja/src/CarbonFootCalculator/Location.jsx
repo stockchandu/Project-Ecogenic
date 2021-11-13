@@ -1,5 +1,7 @@
 import React from "react";
 import "../CarbonFootCalculator/Location.css";
+import "../App.css";
+import CountrySelects from "./CountrySelects";
 
 function Location() {
   return (
@@ -14,7 +16,7 @@ function Location() {
           <br /> values for calculating your carbon footprint.
         </span>
       </div>
-
+      <CountrySelects />
       <button className="confirm-btn-country ">Confirm</button>
     </div>
   );
