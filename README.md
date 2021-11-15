@@ -155,7 +155,7 @@ This App concept uses a carbon footprint calculator to help you track your envir
 
 ## Read the Full Blog [Medium](https://medium.com/@malikchandan926/project-ecogenic-within-5days-4289c0458fb2)
 
-## Team Member ❤️
+## Team Members ❤️
 * Antony Chako(Developer)
 * Chandan Kumar Mallick(Developer)
 * Jeet Biswas(Developer)
