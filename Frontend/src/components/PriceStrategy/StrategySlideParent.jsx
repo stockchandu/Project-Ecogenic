@@ -20,7 +20,7 @@ function StrategySlideParent() {
   };
 
   const handleStrategySelection = (which) => {
-       if (which == "all") {
+       if (which === "all") {
       setStrategySelection((props) => {
         let k = "";
         for (k in props) {
@@ -28,7 +28,7 @@ function StrategySlideParent() {
         }
         return { ...strategySelection, props };
       });
-    } else if (which == "save") {
+    } else if (which === "save") {
       setPage(page + 1);
     } else {
       setStrategySelection({
