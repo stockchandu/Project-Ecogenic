@@ -1,4 +1,4 @@
-# **Project Ecogenic** 🥬🥬
+# 🥬**Project Ecogenic** 🥬
 Eco Genic is a project which focuses on helping people attain their sustainable lifestyle using Green Behavior.
 
 Due to the force of habit, some people refrain from changing their normal habits to sustainable ones.
@@ -13,7 +13,7 @@ This App concept uses a carbon footprint calculator to help you track your envir
 
 </p>
 
-## Few screenshots of our Project Ecogenic
+## Screenshots of Our Project Ecogenic 
 ### 1.Onboarding Page.
 <p align="center">
 <img src="https://miro.medium.com/max/160/1*UuOhqd6njjjKmISdlYEnxQ.png"/>
@@ -156,10 +156,11 @@ Go to visual studio code or open any terminal , type
 ## Read the Full Blog 👉  [Medium](https://medium.com/@malikchandan926/project-ecogenic-within-5days-4289c0458fb2)
 
 ## Team Members ❤️
-* Antony Chako(Developer)
-* Chandan Kumar Mallick(Developer)
-* Jeet Biswas(Developer)
-* Manushree Dave(UI Designer)
-* Pooja Kumari(Developer)
-* Rounak Majumdar(Developer)
+* Antony Chako(Developer) - <a href="" target="_blank"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="50" height="50"/></a>
+* Chandan Kumar Mallick(Developer) - <a href="" target="_blank"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="50" height="50"/></a>
+* Jeet Biswas(Developer) - <a href="" target="_blank"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="50" height="50"/></a>
+* Manushree Dave(UI Designer) - <a href="" target="_blank"><img src="https://cdn2.iconfinder.com/data/icons/linkedin-ui-flat/48/LinkedIn_UI-03-512.png" width="50" height="50"/></a>
+* Pooja Kumari(Developer) - <a href="" target="_blank"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="50" height="50"/></a>
+* Rounak Majumdar(Developer) - <a href="" target="_blank"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="50" height="50"/></a>
 
+🙏 Thank you 🙏
