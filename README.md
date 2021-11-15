@@ -148,3 +148,18 @@ This App concept uses a carbon footprint calculator to help you track your envir
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/MongoDB_Logo.svg/2560px-MongoDB_Logo.svg.png" width="150" height="80"/>
 
 </p>
+
+## How to clone our project
+1.Go to visual studio code or open any terminal , type 
+```git clone https://github.com/stockchandu/project-Ecogenic```
+
+## Read the Full Blog [Medium](https://medium.com/@malikchandan926/project-ecogenic-within-5days-4289c0458fb2)
+
+## Team Member ❤️
+* Antony Chako(Developer)
+* Chandan Kumar Mallick(Developer)
+* Jeet Biswas(Developer)
+* Manushree Dave(UI Designer)
+* Pooja Kumari(Developer)
+* Rounak Majumdar(Developer)
+
