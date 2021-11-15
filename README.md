@@ -1,4 +1,4 @@
-# **Project Ecogenic**
+# **Project Ecogenic** 🥬🥬
 Eco Genic is a project which focuses on helping people attain their sustainable lifestyle using Green Behavior.
 
 Due to the force of habit, some people refrain from changing their normal habits to sustainable ones.
@@ -139,7 +139,7 @@ This App concept uses a carbon footprint calculator to help you track your envir
 
 </p>
 
-## Tech Stack Used In The Project
+## Tech Stack Used In The Project 🛠️
 <p>
 
 <img src="https://logos-download.com/wp-content/uploads/2016/09/React_logo_wordmark.png" width="150" height="80"/> &nbsp; &nbsp; &nbsp; &nbsp;
@@ -149,11 +149,11 @@ This App concept uses a carbon footprint calculator to help you track your envir
 
 </p>
 
-## How to clone our project
-1.Go to visual studio code or open any terminal , type 
+## How to Clone Our Project
+Go to visual studio code or open any terminal , type 
 ```git clone https://github.com/stockchandu/project-Ecogenic```
 
-## Read the Full Blog [Medium](https://medium.com/@malikchandan926/project-ecogenic-within-5days-4289c0458fb2)
+## Read the Full Blog 👉  [Medium](https://medium.com/@malikchandan926/project-ecogenic-within-5days-4289c0458fb2)
 
 ## Team Members ❤️
 * Antony Chako(Developer)
