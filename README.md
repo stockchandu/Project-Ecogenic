@@ -138,3 +138,10 @@ This App concept uses a carbon footprint calculator to help you track your envir
 <img src="https://miro.medium.com/max/159/1*GblCz78Eh2u_SEAhWnTJKg.png"/>
 
 </p>
+
+## Tech Stack Used In The Project
+<p>
+
+<img src="https://reactjs.org/logo-og.png" width="70" height="70"/>
+
+</p>
