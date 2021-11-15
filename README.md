@@ -142,8 +142,9 @@ This App concept uses a carbon footprint calculator to help you track your envir
 ## Tech Stack Used In The Project
 <p>
 
-<img src="https://logos-download.com/wp-content/uploads/2016/09/React_logo_wordmark.png" width="150" height="80"/>
-<img src="https://miro.medium.com/max/365/1*Jr3NFSKTfQWRUyjblBSKeg.png" width="150" height="80"/>
-<img src="https://1000logos.net/wp-content/uploads/2020/08/MongoDB-Logo.png" width="150" height="80"/>
+<img src="https://logos-download.com/wp-content/uploads/2016/09/React_logo_wordmark.png" width="150" height="80"/> &nbsp; &nbsp; &nbsp; &nbsp;
+<img src="https://cdn.pixabay.com/photo/2015/04/23/17/41/node-js-736399_960_720.png" width="150" height="80"/>  &nbsp; &nbsp; &nbsp; &nbsp;
+<img src="https://www.edureka.co/blog/wp-content/uploads/2019/07/express-logo.png" width="150" height="80"/>  &nbsp; &nbsp; &nbsp; &nbsp;
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/MongoDB_Logo.svg/2560px-MongoDB_Logo.svg.png" width="150" height="80"/>
 
 </p>
