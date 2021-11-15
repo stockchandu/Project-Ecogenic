@@ -156,11 +156,11 @@ Go to visual studio code or open any terminal , type
 ## Read the Full Blog 👉  [Medium](https://medium.com/@malikchandan926/project-ecogenic-within-5days-4289c0458fb2)
 
 ## Team Members ❤️
-* Antony Chako(Developer) - <a href="" target="_blank"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="20" height="20"/></a>
-* Chandan Kumar Mallick(Developer) - <a href="" target="_blank"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="50" height="50"/></a>
-* Jeet Biswas(Developer) - <a href="" target="_blank"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="50" height="50"/></a>
-* Manushree Dave(UI Designer) - <a href="" target="_blank"><img src="https://cdn2.iconfinder.com/data/icons/linkedin-ui-flat/48/LinkedIn_UI-03-512.png" width="50" height="50"/></a>
-* Pooja Kumari(Developer) - <a href="" target="_blank"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="50" height="50"/></a>
-* Rounak Majumdar(Developer) - <a href="" target="_blank"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="50" height="50"/></a>
+* Antony Chako(Developer) 👉 <a href="" target="_blank"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="10" height="10"/></a>
+* Chandan Kumar Mallick(Developer) 👉 <a href="" target="_blank"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="10" height="10"/></a>
+* Jeet Biswas(Developer) 👉 <a href="" target="_blank"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="10" height="10"/></a>
+* Manushree Dave(UI Designer) 👉 <a href="" target="_blank"><img src="https://cdn2.iconfinder.com/data/icons/linkedin-ui-flat/48/LinkedIn_UI-03-512.png" width="10" height="10"/></a>
+* Pooja Kumari(Developer) 👉 <a href="" target="_blank"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="10" height="10"/></a>
+* Rounak Majumdar(Developer) 👉 <a href="" target="_blank"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="10" height="10"/></a>
 
 🙏 Thank you 🙏
