@@ -103,7 +103,7 @@ const SliderWrapDiv = styled.div`
   /* background-color: #dbc9c9; */
   & .carousel{
     & .dot{
-    position:relative;
+    position:relative; 
   } 
   }
 `;

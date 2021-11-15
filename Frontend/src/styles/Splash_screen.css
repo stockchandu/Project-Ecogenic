@@ -19,7 +19,7 @@
   left: 73px;
   top: 525px;
   border: 1px solid black;
-  font-family: Segoe UI;
+  font-family: "Segoe UI", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 23px;
@@ -38,7 +38,7 @@
   left: 16px;
   top: 581px;
 
-  font-family: Segoe UI;
+  font-family: "Segoe UI", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -65,7 +65,7 @@
   top: 90.51%;
   bottom: 7.7%;
 
-  font-family: Rubik;
+  font-family: "Rubik", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
