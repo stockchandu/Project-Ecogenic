@@ -143,13 +143,13 @@ Visit the app (414 * 896)👉  [Ecogenic](https://ecogenic-life.netlify.app)
 
 ## Tech Stack Used In The Project 🛠️
 <p>
-
-<img src="https://logos-download.com/wp-content/uploads/2016/09/React_logo_wordmark.png" width="150" height="80"/> &nbsp; &nbsp; &nbsp; &nbsp;
-<img src="https://cdn.pixabay.com/photo/2015/04/23/17/41/node-js-736399_960_720.png" width="150" height="80"/>  &nbsp; &nbsp; &nbsp; &nbsp;
-<img src="https://www.edureka.co/blog/wp-content/uploads/2019/07/express-logo.png" width="150" height="80"/>  &nbsp; &nbsp; &nbsp; &nbsp;
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/MongoDB_Logo.svg/2560px-MongoDB_Logo.svg.png" width="150" height="80"/>
-
+ <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="30" height="30"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+ <img src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_1280.png" alt="react" width="30" height="30"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ <img src="https://sass-lang.com/assets/img/styleguide/seal-color-aef0354c.png" alt="react" width="30" height="30"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ <img src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/233_Node_Js_logo-128.png" alt="react" width="30" height="30"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ <img src="https://img.icons8.com/color/452/mongodb.png" alt="react" width="30" height="30"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </p>
+
 
 ## How to Clone Our Project
 Go to visual studio code or open any terminal , type 
