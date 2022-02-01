@@ -1,4 +1,4 @@
-# 🥬**Project Ecogenic** 🥬
+# **Project Ecogenic** 
 Eco Genic is a project which focuses on helping people attain their sustainable lifestyle using Green Behavior.
 
 Due to the force of habit, some people refrain from changing their normal habits to sustainable ones.
@@ -7,7 +7,7 @@ There are a lot of challenges brought on by physical obstacles which refrain peo
 
 This App concept uses a carbon footprint calculator to help you track your environmental impact in real-time so you can attain your sustainable goals.
 
-Visit the app (414 * 896)👉  [Ecogenic](https://ecogenic-life.netlify.app)
+Visit the app (414 * 896)  [Ecogenic](https://ecogenic-life.netlify.app)
 
 <p align="center">
 
